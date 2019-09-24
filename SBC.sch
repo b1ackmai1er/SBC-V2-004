@@ -3156,7 +3156,7 @@ AR Path="/23D8BC48069BB2" Ref="D1"  Part="1"
 AR Path="/5FC48069BB2" Ref="D1"  Part="1" 
 AR Path="/76BA48069BB2" Ref="D1"  Part="1" 
 F 0 "D1" H 9900 8100 50  0000 C CNN
-F 1 "LED" H 9900 7900 50  0000 C CNN
+F 1 "RUN/HALT" H 9900 7900 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 9900 8000 50  0001 C CNN
 F 3 "" H 9900 8000 50  0001 C CNN
 	1    9900 8000
@@ -7174,7 +7174,7 @@ AR Path="/5FC47C1CB92" Ref="P2"  Part="1"
 AR Path="/76BA47C1CB92" Ref="P2"  Part="1" 
 F 0 "P2" V 2150 11900 50  0000 C CNN
 F 1 "POWER" V 2250 11900 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal" V 2350 11900 50  0001 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" V 2350 11900 50  0001 C CNN
 F 3 "" H 2200 11900 50  0001 C CNN
 	1    2200 11900
 	0    1    1    0   
@@ -8147,7 +8147,7 @@ U 1 1 5C7269FE
 P 6300 8900
 F 0 "Q1" H 6491 8854 50  0000 L CNN
 F 1 "2N3906" H 6491 8945 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6500 8825 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_HandSolder" H 6500 8825 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 6300 8900 50  0001 L CNN
 	1    6300 8900
 	1    0    0    1   
@@ -8168,7 +8168,7 @@ L Device:Speaker LS1
 U 1 1 5C7F2E23
 P 6600 9400
 F 0 "LS1" H 6770 9396 50  0000 L CNN
-F 1 "SPEAKER" H 6770 9305 50  0000 L CNN
+F 1 "SPKR" H 6770 9305 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 6600 9200 50  0001 C CNN
 F 3 "~" H 6590 9350 50  0001 C CNN
 	1    6600 9400
@@ -10312,7 +10312,7 @@ Text Label 3200 6250 0    60   ~ 0
 PC7
 Wire Wire Line
 	3200 5150 3350 5150
-Text Label 3200 6800 0    60   ~ 0
+Text Label 3200 5150 0    60   ~ 0
 PC5
 Wire Wire Line
 	3200 5700 3350 5700
@@ -10320,21 +10320,21 @@ Text Label 3200 7350 0    60   ~ 0
 PC6
 Wire Wire Line
 	3200 6250 3350 6250
-Text Label 3200 5700 0    60   ~ 0
+Text Label 3200 4650 0    60   ~ 0
 PC3
 Wire Wire Line
 	3200 6800 3350 6800
-Text Label 3200 4650 0    60   ~ 0
+Text Label 3200 5700 0    60   ~ 0
 PC4
-NoConn ~ 3200 5150
-NoConn ~ 4100 5150
+NoConn ~ 3200 6800
+NoConn ~ 4100 6800
 Wire Wire Line
 	3950 4650 4100 4650
 Text Label 3950 6250 0    50   ~ 0
 -PC7
 Wire Wire Line
 	3950 5150 4100 5150
-Text Label 3950 6800 0    50   ~ 0
+Text Label 3950 5150 0    50   ~ 0
 -PC5
 Wire Wire Line
 	3950 5700 4100 5700
@@ -10342,11 +10342,11 @@ Text Label 3950 7350 0    50   ~ 0
 -PC6
 Wire Wire Line
 	3950 6250 4100 6250
-Text Label 3950 5700 0    50   ~ 0
+Text Label 3950 4650 0    50   ~ 0
 -PC3
 Wire Wire Line
 	3950 6800 4100 6800
-Text Label 3950 4650 0    50   ~ 0
+Text Label 3950 5700 0    50   ~ 0
 -PC4
 Text Label 4500 5750 0    50   ~ 0
 -PC5
