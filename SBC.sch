@@ -6,7 +6,7 @@ $Descr C 22000 17000
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "2019-01-26"
+Date "2019-02-17"
 Rev ""
 Comp ""
 Comment1 ""
@@ -2068,35 +2068,6 @@ F 3 "" H 11450 3750 50  0001 C CNN
 	1    11450 3750
 	-1   0    0    1   
 $EndComp
-$Comp
-L SBC-rescue:JUMPER JP?
-U 1 1 4C028868
-P 5950 10400
-AR Path="/7E4600384C028868" Ref="JP?"  Part="1" 
-AR Path="/26B00314C028868" Ref="JP?"  Part="1" 
-AR Path="/773F8EB44C028868" Ref="JP1"  Part="1" 
-AR Path="/23CC3C4C028868" Ref="JP1"  Part="1" 
-AR Path="/94C028868" Ref="JP1"  Part="1" 
-AR Path="/4C028868" Ref="JP1"  Part="1" 
-AR Path="/773F65F14C028868" Ref="JP1"  Part="1" 
-AR Path="/23C5984C028868" Ref="JP1"  Part="1" 
-AR Path="/18434C028868" Ref="JP1"  Part="1" 
-AR Path="/24C028868" Ref="JP1"  Part="1" 
-AR Path="/23BED44C028868" Ref="JP1"  Part="1" 
-AR Path="/14C028868" Ref="JP1"  Part="1" 
-AR Path="/FFFFFFF04C028868" Ref="JP1"  Part="1" 
-AR Path="/23D8BC4C028868" Ref="JP1"  Part="1" 
-AR Path="/5AD72BC24C028868" Ref="JP1"  Part="1" 
-AR Path="/23DB0B4C028868" Ref="JP1"  Part="1" 
-AR Path="/5FC4C028868" Ref="JP1"  Part="1" 
-AR Path="/76BA4C028868" Ref="JP1"  Part="1" 
-F 0 "JP1" H 5950 10550 60  0000 C CNN
-F 1 "BATSEL" H 5950 10320 40  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5950 10420 40  0001 C CNN
-F 3 "" H 5950 10400 50  0001 C CNN
-	1    5950 10400
-	0    -1   -1   0   
-$EndComp
 Text Label 5550 10700 0    60   ~ 0
 B_BAT
 Text Label 20050 12750 0    60   ~ 0
@@ -3130,76 +3101,6 @@ Text Notes 2700 8200 0    60   ~ 0
 REAL TIME CLOCK
 NoConn ~ 20000 8650
 NoConn ~ 20000 9250
-$Comp
-L SBC-rescue:GND #PWR012
-U 1 1 47EEEA38
-P 6300 10700
-AR Path="/47EEEA38" Ref="#PWR012"  Part="1" 
-AR Path="/773F65F147EEEA38" Ref="#PWR012"  Part="1" 
-AR Path="/23BED447EEEA38" Ref="#PWR013"  Part="1" 
-AR Path="/23C59847EEEA38" Ref="#PWR013"  Part="1" 
-AR Path="/773F8EB447EEEA38" Ref="#PWR013"  Part="1" 
-AR Path="/247EEEA38" Ref="#PWR"  Part="1" 
-AR Path="/947EEEA38" Ref="#PWR013"  Part="1" 
-AR Path="/FFFFFFF047EEEA38" Ref="#PWR19"  Part="1" 
-AR Path="/71126E47EEEA38" Ref="#PWR09"  Part="1" 
-AR Path="/48EF47EEEA38" Ref="#PWR09"  Part="1" 
-AR Path="/23CC3C47EEEA38" Ref="#PWR18"  Part="1" 
-AR Path="/1290D1E47EEEA38" Ref="#PWR09"  Part="1" 
-AR Path="/6FF0DD4047EEEA38" Ref="#PWR08"  Part="1" 
-AR Path="/23C89C47EEEA38" Ref="#PWR08"  Part="1" 
-AR Path="/26E501447EEEA38" Ref="#PWR08"  Part="1" 
-AR Path="/26000047EEEA38" Ref="#PWR08"  Part="1" 
-AR Path="/50047EEEA38" Ref="#PWR08"  Part="1" 
-AR Path="/2756B1C47EEEA38" Ref="#PWR08"  Part="1" 
-AR Path="/147EEEA38" Ref="#PWR011"  Part="1" 
-AR Path="/23D8BC47EEEA38" Ref="#PWR011"  Part="1" 
-AR Path="/70F26E47EEEA38" Ref="#PWR013"  Part="1" 
-AR Path="/23DB0B47EEEA38" Ref="#PWR013"  Part="1" 
-AR Path="/5FC47EEEA38" Ref="#PWR012"  Part="1" 
-AR Path="/76BA47EEEA38" Ref="#PWR012"  Part="1" 
-F 0 "#PWR012" H 6300 10700 30  0001 C CNN
-F 1 "GND" H 6300 10630 30  0001 C CNN
-F 2 "" H 6300 10700 50  0001 C CNN
-F 3 "" H 6300 10700 50  0001 C CNN
-	1    6300 10700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 BT1
-U 1 1 47EEEA29
-P 6500 10350
-AR Path="/773F65F147EEEA29" Ref="BT1"  Part="1" 
-AR Path="/23C59847EEEA29" Ref="BT1"  Part="1" 
-AR Path="/DE2D47EEEA29" Ref="BT1"  Part="1" 
-AR Path="/247EEEA29" Ref="BT1"  Part="1" 
-AR Path="/23BED447EEEA29" Ref="BT1"  Part="1" 
-AR Path="/773F8EB447EEEA29" Ref="BT1"  Part="1" 
-AR Path="/47EEEA29" Ref="BT1"  Part="1" 
-AR Path="/947EEEA29" Ref="BT1"  Part="1" 
-AR Path="/FFFFFFF047EEEA29" Ref="BT1"  Part="1" 
-AR Path="/48EF47EEEA29" Ref="BT1"  Part="1" 
-AR Path="/23CC3C47EEEA29" Ref="BT1"  Part="1" 
-AR Path="/1290D1E47EEEA29" Ref="BT1"  Part="1" 
-AR Path="/23C89C47EEEA29" Ref="BT1"  Part="1" 
-AR Path="/26E501447EEEA29" Ref="BT1"  Part="1" 
-AR Path="/26000047EEEA29" Ref="BT1"  Part="1" 
-AR Path="/23D1A047EEEA29" Ref="BT1"  Part="1" 
-AR Path="/50047EEEA29" Ref="BT1"  Part="1" 
-AR Path="/23D6C047EEEA29" Ref="BT1"  Part="1" 
-AR Path="/23DB0B47EEEA29" Ref="BT1"  Part="1" 
-AR Path="/2756B1C47EEEA29" Ref="BT1"  Part="1" 
-AR Path="/147EEEA29" Ref="BT1"  Part="1" 
-AR Path="/23D8BC47EEEA29" Ref="BT1"  Part="1" 
-AR Path="/5FC47EEEA29" Ref="BT1"  Part="1" 
-AR Path="/76BA47EEEA29" Ref="BT1"  Part="1" 
-F 0 "BT1" H 6500 10450 50  0000 C CNN
-F 1 "SUPER" H 6500 10160 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6500 10260 50  0001 C CNN
-F 3 "" H 6500 10350 50  0001 C CNN
-	1    6500 10350
-	1    0    0    -1  
-$EndComp
 Text Label 1300 10050 0    60   ~ 0
 BUF_Q7
 Text Label 3650 10450 0    60   ~ 0
@@ -8412,9 +8313,6 @@ Wire Wire Line
 	4600 10250 4600 10100
 Wire Wire Line
 	5550 10700 5950 10700
-Connection ~ 5950 10100
-Wire Wire Line
-	4600 10100 5950 10100
 Wire Notes Line
 	950  11350 7600 11350
 Wire Notes Line
@@ -10326,7 +10224,7 @@ AR Path="/23D8BC5C762D3A" Ref="BT?"  Part="1"
 AR Path="/5FC5C762D3A" Ref="BT?"  Part="1" 
 AR Path="/76BA5C762D3A" Ref="BT?"  Part="1" 
 F 0 "C34" H 6900 10600 50  0000 C CNN
-F 1 "SUPER" H 6900 10210 50  0000 C CNN
+F 1 "0.22F" H 6900 10210 50  0000 C CNN
 F 2 "library:SuperCap5" H 6900 10310 50  0001 C CNN
 F 3 "" H 6900 10400 50  0001 C CNN
 	1    6900 10400
@@ -10368,12 +10266,37 @@ F 3 "" H 6900 10700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5950 10100 6300 10100
+	4600 10100 5950 10100
+Connection ~ 5950 10100
+$Comp
+L SBC-rescue:JUMPER JP?
+U 1 1 4C028868
+P 5950 10400
+AR Path="/7E4600384C028868" Ref="JP?"  Part="1" 
+AR Path="/26B00314C028868" Ref="JP?"  Part="1" 
+AR Path="/773F8EB44C028868" Ref="JP1"  Part="1" 
+AR Path="/23CC3C4C028868" Ref="JP1"  Part="1" 
+AR Path="/94C028868" Ref="JP1"  Part="1" 
+AR Path="/4C028868" Ref="JP1"  Part="1" 
+AR Path="/773F65F14C028868" Ref="JP1"  Part="1" 
+AR Path="/23C5984C028868" Ref="JP1"  Part="1" 
+AR Path="/18434C028868" Ref="JP1"  Part="1" 
+AR Path="/24C028868" Ref="JP1"  Part="1" 
+AR Path="/23BED44C028868" Ref="JP1"  Part="1" 
+AR Path="/14C028868" Ref="JP1"  Part="1" 
+AR Path="/FFFFFFF04C028868" Ref="JP1"  Part="1" 
+AR Path="/23D8BC4C028868" Ref="JP1"  Part="1" 
+AR Path="/5AD72BC24C028868" Ref="JP1"  Part="1" 
+AR Path="/23DB0B4C028868" Ref="JP1"  Part="1" 
+AR Path="/5FC4C028868" Ref="JP1"  Part="1" 
+AR Path="/76BA4C028868" Ref="JP1"  Part="1" 
+F 0 "JP1" H 5950 10550 60  0000 C CNN
+F 1 "BATSEL" H 5950 10320 40  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5950 10420 40  0001 C CNN
+F 3 "" H 5950 10400 50  0001 C CNN
+	1    5950 10400
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
-	6300 10350 6300 10100
-Wire Wire Line
-	6300 10450 6300 10700
-Connection ~ 6300 10100
-Wire Wire Line
-	6300 10100 6900 10100
+	5950 10100 6900 10100
 $EndSCHEMATC
