@@ -1081,9 +1081,6 @@ Wire Wire Line
 Wire Wire Line
 	14650 4850 14350 4850
 Wire Wire Line
-	17250 2700 17250 2850
-Connection ~ 17250 2850
-Wire Wire Line
 	16200 6950 15650 6950
 Wire Wire Line
 	13000 6950 13400 6950
@@ -2143,44 +2140,6 @@ NoConn ~ 15750 2050
 NoConn ~ 15750 1950
 NoConn ~ 15750 1650
 NoConn ~ 15750 1450
-Text Notes 17050 2600 0    60   ~ 0
-MOUNTING HOLES
-$Comp
-L power:GND #PWR?
-U 1 1 4C016D65
-P 17250 3000
-AR Path="/5AD700384C016D65" Ref="#PWR?"  Part="1" 
-AR Path="/2AF00314C016D65" Ref="#PWR?"  Part="1" 
-AR Path="/4C016D65" Ref="#PWR07"  Part="1" 
-AR Path="/23C89C4C016D65" Ref="#PWR01"  Part="1" 
-AR Path="/773F65F14C016D65" Ref="#PWR07"  Part="1" 
-AR Path="/23C5984C016D65" Ref="#PWR08"  Part="1" 
-AR Path="/B36D4C016D65" Ref="#PWR01"  Part="1" 
-AR Path="/23BED44C016D65" Ref="#PWR08"  Part="1" 
-AR Path="/71126E4C016D65" Ref="#PWR03"  Part="1" 
-AR Path="/6FF0DD404C016D65" Ref="#PWR02"  Part="1" 
-AR Path="/26E50144C016D65" Ref="#PWR02"  Part="1" 
-AR Path="/94C016D65" Ref="#PWR07"  Part="1" 
-AR Path="/2600004C016D65" Ref="#PWR02"  Part="1" 
-AR Path="/5004C016D65" Ref="#PWR02"  Part="1" 
-AR Path="/2756B1C4C016D65" Ref="#PWR02"  Part="1" 
-AR Path="/773F8EB44C016D65" Ref="#PWR08"  Part="1" 
-AR Path="/23CC3C4C016D65" Ref="#PWR40"  Part="1" 
-AR Path="/FFFFFFF04C016D65" Ref="#PWR39"  Part="1" 
-AR Path="/14C016D65" Ref="#PWR05"  Part="1" 
-AR Path="/23D8BC4C016D65" Ref="#PWR05"  Part="1" 
-AR Path="/70F26E4C016D65" Ref="#PWR07"  Part="1" 
-AR Path="/5AD72BC24C016D65" Ref="#PWR05"  Part="1" 
-AR Path="/23DB0B4C016D65" Ref="#PWR07"  Part="1" 
-AR Path="/5FC4C016D65" Ref="#PWR06"  Part="1" 
-AR Path="/76BA4C016D65" Ref="#PWR07"  Part="1" 
-F 0 "#PWR07" H 17250 3000 30  0001 C CNN
-F 1 "GND" H 17250 2930 30  0001 C CNN
-F 2 "" H 17250 3000 50  0001 C CNN
-F 3 "" H 17250 3000 50  0001 C CNN
-	1    17250 3000
-	1    0    0    -1  
-$EndComp
 Text Label 10200 2250 2    50   ~ 0
 VBAT2
 Text Label 11300 1350 0    60   ~ 0
@@ -2306,85 +2265,6 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" V 8450 3500 40 
 F 3 "" H 8300 3500 50  0001 C CNN
 	1    8300 3500
 	-1   0    0    1   
-$EndComp
-$Comp
-L SBC-rescue:CONN_1 P?
-U 1 1 4C002A4E
-P 17400 2850
-AR Path="/384C002A4E" Ref="P?"  Part="1" 
-AR Path="/27000314C002A4E" Ref="P?"  Part="1" 
-AR Path="/23D7D44C002A4E" Ref="P?"  Part="1" 
-AR Path="/23D0B04C002A4E" Ref="hole2"  Part="1" 
-AR Path="/23D33B4C002A4E" Ref="hole2"  Part="1" 
-AR Path="/773F65F14C002A4E" Ref="hole2"  Part="1" 
-AR Path="/23C5984C002A4E" Ref="hole2"  Part="1" 
-AR Path="/44C002A4E" Ref="hole2"  Part="1" 
-AR Path="/7E44048F4C002A4E" Ref="hole2"  Part="1" 
-AR Path="/2FB0D344C002A4E" Ref="hole"  Part="1" 
-AR Path="/4C002A4E" Ref="hole2"  Part="1" 
-AR Path="/B36D4C002A4E" Ref="hole2"  Part="1" 
-AR Path="/24C002A4E" Ref="hole2"  Part="1" 
-AR Path="/23BED44C002A4E" Ref="hole2"  Part="1" 
-AR Path="/773F8EB44C002A4E" Ref="hole2"  Part="1" 
-AR Path="/94C002A4E" Ref="hole2"  Part="1" 
-AR Path="/23CC3C4C002A4E" Ref="hole2"  Part="1" 
-AR Path="/FFFFFFF04C002A4E" Ref="hole2"  Part="1" 
-AR Path="/23C89C4C002A4E" Ref="hole2"  Part="1" 
-AR Path="/26E50144C002A4E" Ref="hole2"  Part="1" 
-AR Path="/2600004C002A4E" Ref="hole2"  Part="1" 
-AR Path="/23D5EB4C002A4E" Ref="hole2"  Part="1" 
-AR Path="/5004C002A4E" Ref="hole2"  Part="1" 
-AR Path="/23DB0B4C002A4E" Ref="hole2"  Part="1" 
-AR Path="/2756B1C4C002A4E" Ref="hole2"  Part="1" 
-AR Path="/14C002A4E" Ref="hole2"  Part="1" 
-AR Path="/23D8BC4C002A4E" Ref="hole2"  Part="1" 
-AR Path="/5AD72BC24C002A4E" Ref="hole2"  Part="1" 
-AR Path="/5FC4C002A4E" Ref="hole2"  Part="1" 
-AR Path="/76BA4C002A4E" Ref="hole2"  Part="1" 
-F 0 "hole2" H 17480 2850 40  0000 L CNN
-F 1 "CONN_1" H 17400 2905 30  0001 C CNN
-F 2 "" H 17400 3005 30  0001 C CNN
-F 3 "" H 17400 2850 50  0001 C CNN
-	1    17400 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L SBC-rescue:CONN_1 P?
-U 1 1 4C002A4A
-P 17400 2700
-AR Path="/7E4600384C002A4A" Ref="P?"  Part="1" 
-AR Path="/27000314C002A4A" Ref="P?"  Part="1" 
-AR Path="/4C002A4A" Ref="hole1"  Part="1" 
-AR Path="/23D0B04C002A4A" Ref="hole1"  Part="1" 
-AR Path="/23D33B4C002A4A" Ref="hole1"  Part="1" 
-AR Path="/773F65F14C002A4A" Ref="hole1"  Part="1" 
-AR Path="/7E44048F4C002A4A" Ref="hole1"  Part="1" 
-AR Path="/2330CD04C002A4A" Ref="hole"  Part="1" 
-AR Path="/24C002A4A" Ref="hole1"  Part="1" 
-AR Path="/23BED44C002A4A" Ref="hole1"  Part="1" 
-AR Path="/773F8EB44C002A4A" Ref="hole1"  Part="1" 
-AR Path="/23CC3C4C002A4A" Ref="hole1"  Part="1" 
-AR Path="/94C002A4A" Ref="hole1"  Part="1" 
-AR Path="/23C5984C002A4A" Ref="hole1"  Part="1" 
-AR Path="/FFFFFFF04C002A4A" Ref="hole1"  Part="1" 
-AR Path="/23C89C4C002A4A" Ref="hole1"  Part="1" 
-AR Path="/26E50144C002A4A" Ref="hole1"  Part="1" 
-AR Path="/2600004C002A4A" Ref="hole1"  Part="1" 
-AR Path="/23D5EB4C002A4A" Ref="hole1"  Part="1" 
-AR Path="/5004C002A4A" Ref="hole1"  Part="1" 
-AR Path="/23DB0B4C002A4A" Ref="hole1"  Part="1" 
-AR Path="/2756B1C4C002A4A" Ref="hole1"  Part="1" 
-AR Path="/14C002A4A" Ref="hole1"  Part="1" 
-AR Path="/23D8BC4C002A4A" Ref="hole1"  Part="1" 
-AR Path="/5AD72BC24C002A4A" Ref="hole1"  Part="1" 
-AR Path="/5FC4C002A4A" Ref="hole1"  Part="1" 
-AR Path="/76BA4C002A4A" Ref="hole1"  Part="1" 
-F 0 "hole1" H 17480 2700 40  0000 L CNN
-F 1 "CONN_1" H 17400 2755 30  0001 C CNN
-F 2 "" H 17400 2855 30  0001 C CNN
-F 3 "" H 17400 2700 50  0001 C CNN
-	1    17400 2700
-	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS125 U5
@@ -5002,9 +4882,9 @@ $EndComp
 Text Label 14350 6050 0    60   ~ 0
 CLK_UART
 $Comp
-L SBC-rescue:C96ABC U20
+L Connector:C96ABC U20
 U 1 1 47EAEFC0
-P 20950 10600
+P 20750 10650
 AR Path="/C47EAEFC0" Ref="U20"  Part="1" 
 AR Path="/773F65F147EAEFC0" Ref="U20"  Part="1" 
 AR Path="/47EAEFC0" Ref="U20"  Part="1" 
@@ -5029,11 +4909,11 @@ AR Path="/23D8BC47EAEFC0" Ref="U20"  Part="1"
 AR Path="/5FC47EAEFC0" Ref="U20"  Part="1" 
 AR Path="/76BA47EAEFC0" Ref="U20"  Part="1" 
 AR Path="/3F80000047EAEFC0" Ref="U20"  Part="1" 
-F 0 "U20" H 20950 15500 70  0000 C CNN
-F 1 "C96ABC" V 21200 10600 70  0000 C CNN
-F 2 "" V 21300 10600 70  0001 C CNN
-F 3 "" H 20950 10600 50  0001 C CNN
-	1    20950 10600
+F 0 "U20" H 20750 15650 70  0000 C CNN
+F 1 "C96ABC" V 21000 10650 70  0000 C CNN
+F 2 "library:C96ABCMC" V 21100 10650 70  0001 C CNN
+F 3 "" H 20750 10650 50  0001 C CNN
+	1    20750 10650
 	1    0    0    -1  
 $EndComp
 Text Label 11850 15250 0    60   ~ 0
@@ -7379,8 +7259,6 @@ Wire Wire Line
 	17150 4300 17650 4300
 Wire Wire Line
 	2400 12600 2500 12600
-Wire Wire Line
-	17250 2850 17250 3000
 Wire Wire Line
 	4350 12600 4650 12600
 Wire Wire Line
@@ -10474,7 +10352,7 @@ Wire Wire Line
 Wire Wire Line
 	11050 1350 11000 1350
 Connection ~ 11050 1350
-NoConn ~ 20450 15050
+NoConn ~ 20000 15050
 Text Notes 5650 11050 0    50   ~ 0
 SuperCapacitor\n0.22F/0.33F 5V
 Wire Wire Line
@@ -10482,4 +10360,8 @@ Wire Wire Line
 Connection ~ 5950 10450
 Wire Wire Line
 	5950 10450 6500 10450
+Wire Wire Line
+	20000 15050 20450 15050
+Text Label 20000 15050 0    60   ~ 0
+/RESET_IN
 $EndSCHEMATC
