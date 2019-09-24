@@ -6,7 +6,7 @@ $Descr C 22000 17000
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "2019-01-23"
+Date "2019-01-24"
 Rev ""
 Comp ""
 Comment1 ""
@@ -92,9 +92,6 @@ Wire Wire Line
 	8250 12950 8700 12950
 Wire Wire Line
 	3750 8650 4300 8650
-Connection ~ 2100 12200
-Wire Wire Line
-	2200 12200 2100 12200
 Wire Wire Line
 	4350 12700 4650 12700
 Wire Wire Line
@@ -1211,7 +1208,6 @@ Wire Wire Line
 	1900 12700 2100 12700
 Wire Wire Line
 	2300 12200 2300 12300
-Connection ~ 2300 12200
 Wire Wire Line
 	3750 8550 4300 8550
 Wire Wire Line
@@ -4671,7 +4667,6 @@ Text Label 14000 2000 0    60   ~ 0
 /CS_RAM
 Text Label 8250 3100 0    60   ~ 0
 /CS_ROM
-NoConn ~ 2000 12200
 Text Label 8250 13250 0    60   ~ 0
 /CS_CFG1
 Text Label 12400 15550 0    60   ~ 0
@@ -7151,9 +7146,9 @@ F 3 "" H 12500 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SBC-rescue:CONN_4 P2
+L Connector:Barrel_Jack P2
 U 1 1 47C1CB92
-P 2150 11850
+P 2200 11900
 AR Path="/773F65F147C1CB92" Ref="P2"  Part="1" 
 AR Path="/23C59847C1CB92" Ref="P2"  Part="1" 
 AR Path="/DE2D47C1CB92" Ref="P2"  Part="1" 
@@ -7177,12 +7172,12 @@ AR Path="/147C1CB92" Ref="P2"  Part="1"
 AR Path="/23D8BC47C1CB92" Ref="P2"  Part="1" 
 AR Path="/5FC47C1CB92" Ref="P2"  Part="1" 
 AR Path="/76BA47C1CB92" Ref="P2"  Part="1" 
-F 0 "P2" V 2100 11850 50  0000 C CNN
-F 1 "POWER" V 2200 11850 50  0000 C CNN
-F 2 "" V 2300 11850 50  0001 C CNN
-F 3 "" H 2150 11850 50  0001 C CNN
-	1    2150 11850
-	0    -1   -1   0   
+F 0 "P2" V 2150 11900 50  0000 C CNN
+F 1 "POWER" V 2250 11900 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal" V 2350 11900 50  0001 C CNN
+F 3 "" H 2200 11900 50  0001 C CNN
+	1    2200 11900
+	0    1    1    0   
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG040
@@ -10154,7 +10149,7 @@ U 1 1 5ED0A8F2
 P 3650 4650
 F 0 "U27" H 3650 5000 50  0000 C CNN
 F 1 "74LS14" H 3650 4900 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3650 4650 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3650 4650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 3650 4650 50  0001 C CNN
 	1    3650 4650
 	1    0    0    -1  
@@ -10181,7 +10176,7 @@ U 2 1 5FEDEC55
 P 3650 5150
 F 0 "U27" H 3650 5450 50  0000 C CNN
 F 1 "74LS14" H 3650 5350 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3650 5150 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3650 5150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 3650 5150 50  0001 C CNN
 	2    3650 5150
 	1    0    0    -1  
@@ -10192,7 +10187,7 @@ U 3 1 5FEDEDC9
 P 3650 5700
 F 0 "U27" H 3650 6017 50  0000 C CNN
 F 1 "74LS14" H 3650 5926 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3650 5700 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3650 5700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 3650 5700 50  0001 C CNN
 	3    3650 5700
 	1    0    0    -1  
@@ -10203,7 +10198,7 @@ U 4 1 5FEDF05A
 P 3650 6250
 F 0 "U27" H 3650 6567 50  0000 C CNN
 F 1 "74LS14" H 3650 6476 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3650 6250 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3650 6250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 3650 6250 50  0001 C CNN
 	4    3650 6250
 	1    0    0    -1  
@@ -10214,7 +10209,7 @@ U 5 1 5FEE02F1
 P 3650 6800
 F 0 "U27" H 3650 7117 50  0000 C CNN
 F 1 "74LS14" H 3650 7026 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3650 6800 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3650 6800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 3650 6800 50  0001 C CNN
 	5    3650 6800
 	1    0    0    -1  
@@ -10225,7 +10220,7 @@ U 6 1 5FEE0583
 P 3650 7350
 F 0 "U27" H 3650 7667 50  0000 C CNN
 F 1 "74LS14" H 3650 7576 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3650 7350 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3650 7350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 3650 7350 50  0001 C CNN
 	6    3650 7350
 	1    0    0    -1  
@@ -10236,7 +10231,7 @@ U 7 1 5FEE06EF
 P 19700 2950
 F 0 "U27" H 19930 2996 50  0000 L CNN
 F 1 "74LS14" H 19930 2905 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 19700 2950 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 19700 2950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 19700 2950 50  0001 C CNN
 	7    19700 2950
 	1    0    0    -1  
@@ -10313,7 +10308,7 @@ F 3 "" H 19700 3450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3200 4650 3350 4650
-Text Label 3200 4650 0    60   ~ 0
+Text Label 3200 6250 0    60   ~ 0
 PC7
 Wire Wire Line
 	3200 5150 3350 5150
@@ -10329,13 +10324,13 @@ Text Label 3200 5700 0    60   ~ 0
 PC3
 Wire Wire Line
 	3200 6800 3350 6800
-Text Label 3200 6250 0    60   ~ 0
+Text Label 3200 4650 0    60   ~ 0
 PC4
 NoConn ~ 3200 5150
 NoConn ~ 4100 5150
 Wire Wire Line
 	3950 4650 4100 4650
-Text Label 3950 4650 0    50   ~ 0
+Text Label 3950 6250 0    50   ~ 0
 -PC7
 Wire Wire Line
 	3950 5150 4100 5150
@@ -10351,7 +10346,7 @@ Text Label 3950 5700 0    50   ~ 0
 -PC3
 Wire Wire Line
 	3950 6800 4100 6800
-Text Label 3950 6250 0    50   ~ 0
+Text Label 3950 4650 0    50   ~ 0
 -PC4
 Text Label 4500 5750 0    50   ~ 0
 -PC5
@@ -10452,4 +10447,5 @@ Wire Wire Line
 	13500 5500 13950 5500
 Wire Wire Line
 	13500 5500 13500 5700
+Connection ~ 2300 12200
 $EndSCHEMATC
