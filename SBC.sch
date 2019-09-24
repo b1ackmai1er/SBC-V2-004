@@ -121,19 +121,9 @@ Wire Wire Line
 Wire Wire Line
 	12350 1700 12750 1700
 Wire Wire Line
-	11650 6650 11950 6650
+	11650 5900 11950 5900
 Wire Wire Line
-	11650 5900 12150 5900
-Wire Wire Line
-	12150 5900 12150 6900
-Wire Wire Line
-	12150 6900 11650 6900
-Wire Wire Line
-	10050 5900 9350 5900
-Wire Wire Line
-	9350 5900 9350 6900
-Wire Wire Line
-	9350 6900 10050 6900
+	10050 5900 9550 5900
 Wire Wire Line
 	9100 3400 8500 3400
 Wire Wire Line
@@ -355,8 +345,6 @@ Wire Wire Line
 	8950 6550 8450 6550
 Wire Wire Line
 	9550 6200 10050 6200
-Wire Wire Line
-	11950 6450 11650 6450
 Wire Wire Line
 	11950 6200 11650 6200
 Wire Wire Line
@@ -751,11 +739,7 @@ Wire Wire Line
 Wire Wire Line
 	12100 5200 11650 5200
 Wire Wire Line
-	11950 6800 11650 6800
-Wire Wire Line
 	2100 12200 2100 12700
-Wire Wire Line
-	13850 4700 13700 4700
 Wire Wire Line
 	2800 4700 2950 4700
 Wire Wire Line
@@ -888,10 +872,6 @@ Wire Wire Line
 	13200 5200 13200 5100
 Wire Wire Line
 	13000 5000 13200 5000
-Wire Wire Line
-	9550 6800 10050 6800
-Wire Wire Line
-	9550 6450 10050 6450
 Wire Wire Line
 	8950 6450 8450 6450
 Wire Wire Line
@@ -1160,23 +1140,9 @@ Wire Wire Line
 Wire Wire Line
 	8950 5850 8450 5850
 Wire Wire Line
-	10050 6550 9450 6550
+	9550 6100 10050 6100
 Wire Wire Line
-	9450 6550 9450 6100
-Wire Wire Line
-	9450 6100 10050 6100
-Wire Wire Line
-	10050 6650 9550 6650
-Wire Wire Line
-	10050 7000 9550 7000
-Wire Wire Line
-	11650 6550 12050 6550
-Wire Wire Line
-	12050 6550 12050 6100
-Wire Wire Line
-	12050 6100 11650 6100
-Wire Wire Line
-	11950 7000 11650 7000
+	11950 6100 11650 6100
 Wire Wire Line
 	13700 4900 14000 4900
 Wire Wire Line
@@ -1815,8 +1781,6 @@ F 3 "" H 10650 14400 50  0001 C CNN
 $EndComp
 Text Label 8900 13850 0    60   ~ 0
 A15
-Text Notes 9350 7500 0    60   ~ 0
-K2 = UART SIDE DSR OR CTS\nK3 = UART SIDE DTR OR RTS\nK4 = SERIAL SIDE DSR OR CTS\nK5 = SERIAL SIDE DTR OR RTS
 Text Notes 3700 11300 0    60   ~ 0
 JP1 = ECB BACKPLANE BATTERY (A24)
 Text Notes 3500 7900 0    60   ~ 0
@@ -2463,155 +2427,6 @@ Text Label 13750 4800 0    60   ~ 0
 RTS
 Text Label 13750 4900 0    60   ~ 0
 CTS
-Text Label 11700 7000 0    60   ~ 0
-RTS
-Text Label 11700 6650 0    60   ~ 0
-CTS
-Text Label 9600 7000 0    60   ~ 0
-RTS_TTL
-Text Label 9600 6650 0    60   ~ 0
-CTS_TTL
-$Comp
-L Connector_Generic:Conn_01x03 K?
-U 1 1 4C006D3F
-P 11450 6900
-AR Path="/384C006D3F" Ref="K?"  Part="1" 
-AR Path="/25A00314C006D3F" Ref="K?"  Part="1" 
-AR Path="/6FF405C44C006D3F" Ref="K?"  Part="1" 
-AR Path="/4C006D3F" Ref="K5"  Part="1" 
-AR Path="/6FF405D84C006D3F" Ref="K?"  Part="1" 
-AR Path="/23DA344C006D3F" Ref="K?"  Part="1" 
-AR Path="/697ADC804C006D3F" Ref="K?"  Part="1" 
-AR Path="/773F8EB44C006D3F" Ref="K5"  Part="1" 
-AR Path="/94C006D3F" Ref="K5"  Part="1" 
-AR Path="/773F65F14C006D3F" Ref="K5"  Part="1" 
-AR Path="/23C5984C006D3F" Ref="K5"  Part="1" 
-AR Path="/B36D4C006D3F" Ref="K5"  Part="1" 
-AR Path="/24C006D3F" Ref="K5"  Part="1" 
-AR Path="/23BED44C006D3F" Ref="K5"  Part="1" 
-AR Path="/23CC3C4C006D3F" Ref="K5"  Part="1" 
-AR Path="/FFFFFFF04C006D3F" Ref="K5"  Part="1" 
-AR Path="/23C89C4C006D3F" Ref="K5"  Part="1" 
-AR Path="/26E50144C006D3F" Ref="K5"  Part="1" 
-AR Path="/2600004C006D3F" Ref="K5"  Part="1" 
-AR Path="/23D5EB4C006D3F" Ref="K5"  Part="1" 
-AR Path="/5004C006D3F" Ref="K5"  Part="1" 
-AR Path="/23DB0B4C006D3F" Ref="K5"  Part="1" 
-AR Path="/2756B1C4C006D3F" Ref="K5"  Part="1" 
-AR Path="/14C006D3F" Ref="K5"  Part="1" 
-AR Path="/23D8BC4C006D3F" Ref="K5"  Part="1" 
-AR Path="/5AD72BC24C006D3F" Ref="K5"  Part="1" 
-AR Path="/5FC4C006D3F" Ref="K5"  Part="1" 
-AR Path="/76BA4C006D3F" Ref="K5"  Part="1" 
-F 0 "K5" V 11550 6900 50  0000 C CNN
-F 1 "RTS-DTR" V 11650 6900 40  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" V 11600 6900 40  0001 C CNN
-F 3 "" H 11450 6900 50  0001 C CNN
-	1    11450 6900
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x03 K?
-U 1 1 4C006D37
-P 11450 6550
-AR Path="/384C006D37" Ref="K?"  Part="1" 
-AR Path="/24E00314C006D37" Ref="K?"  Part="1" 
-AR Path="/773F8EB44C006D37" Ref="K4"  Part="1" 
-AR Path="/4C006D37" Ref="K4"  Part="1" 
-AR Path="/94C006D37" Ref="K4"  Part="1" 
-AR Path="/773F65F14C006D37" Ref="K4"  Part="1" 
-AR Path="/23C5984C006D37" Ref="K4"  Part="1" 
-AR Path="/24C006D37" Ref="K4"  Part="1" 
-AR Path="/23BED44C006D37" Ref="K4"  Part="1" 
-AR Path="/23CC3C4C006D37" Ref="K4"  Part="1" 
-AR Path="/FFFFFFF04C006D37" Ref="K4"  Part="1" 
-AR Path="/23C89C4C006D37" Ref="K4"  Part="1" 
-AR Path="/26E50144C006D37" Ref="K4"  Part="1" 
-AR Path="/2600004C006D37" Ref="K4"  Part="1" 
-AR Path="/23D5EB4C006D37" Ref="K4"  Part="1" 
-AR Path="/5004C006D37" Ref="K4"  Part="1" 
-AR Path="/23DB0B4C006D37" Ref="K4"  Part="1" 
-AR Path="/2756B1C4C006D37" Ref="K4"  Part="1" 
-AR Path="/14C006D37" Ref="K4"  Part="1" 
-AR Path="/23D8BC4C006D37" Ref="K4"  Part="1" 
-AR Path="/5AD72BC24C006D37" Ref="K4"  Part="1" 
-AR Path="/5FC4C006D37" Ref="K4"  Part="1" 
-AR Path="/76BA4C006D37" Ref="K4"  Part="1" 
-F 0 "K4" V 11550 6550 50  0000 C CNN
-F 1 "CTS-DSR" V 11650 6550 40  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" V 11600 6550 40  0001 C CNN
-F 3 "" H 11450 6550 50  0001 C CNN
-	1    11450 6550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x03 K?
-U 1 1 4C006D32
-P 10250 6900
-AR Path="/384C006D32" Ref="K?"  Part="1" 
-AR Path="/24E00314C006D32" Ref="K?"  Part="1" 
-AR Path="/773F8EB44C006D32" Ref="K3"  Part="1" 
-AR Path="/4C006D32" Ref="K3"  Part="1" 
-AR Path="/94C006D32" Ref="K3"  Part="1" 
-AR Path="/773F65F14C006D32" Ref="K3"  Part="1" 
-AR Path="/23C5984C006D32" Ref="K3"  Part="1" 
-AR Path="/24C006D32" Ref="K3"  Part="1" 
-AR Path="/23BED44C006D32" Ref="K3"  Part="1" 
-AR Path="/23CC3C4C006D32" Ref="K3"  Part="1" 
-AR Path="/FFFFFFF04C006D32" Ref="K3"  Part="1" 
-AR Path="/23C89C4C006D32" Ref="K3"  Part="1" 
-AR Path="/26E50144C006D32" Ref="K3"  Part="1" 
-AR Path="/2600004C006D32" Ref="K3"  Part="1" 
-AR Path="/23D5EB4C006D32" Ref="K3"  Part="1" 
-AR Path="/5004C006D32" Ref="K3"  Part="1" 
-AR Path="/23DB0B4C006D32" Ref="K3"  Part="1" 
-AR Path="/2756B1C4C006D32" Ref="K3"  Part="1" 
-AR Path="/14C006D32" Ref="K3"  Part="1" 
-AR Path="/23D8BC4C006D32" Ref="K3"  Part="1" 
-AR Path="/5AD72BC24C006D32" Ref="K3"  Part="1" 
-AR Path="/5FC4C006D32" Ref="K3"  Part="1" 
-AR Path="/76BA4C006D32" Ref="K3"  Part="1" 
-F 0 "K3" V 10350 6900 50  0000 C CNN
-F 1 "RTS-DTR" V 10450 6900 40  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" V 10400 6900 40  0001 C CNN
-F 3 "" H 10250 6900 50  0001 C CNN
-	1    10250 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x03 K?
-U 1 1 4C006D2C
-P 10250 6550
-AR Path="/7E4600384C006D2C" Ref="K?"  Part="1" 
-AR Path="/27300314C006D2C" Ref="K?"  Part="1" 
-AR Path="/773F8EB44C006D2C" Ref="K2"  Part="1" 
-AR Path="/23CC3C4C006D2C" Ref="K2"  Part="1" 
-AR Path="/94C006D2C" Ref="K2"  Part="1" 
-AR Path="/4C006D2C" Ref="K2"  Part="1" 
-AR Path="/773F65F14C006D2C" Ref="K2"  Part="1" 
-AR Path="/23C5984C006D2C" Ref="K2"  Part="1" 
-AR Path="/24C006D2C" Ref="K2"  Part="1" 
-AR Path="/23BED44C006D2C" Ref="K2"  Part="1" 
-AR Path="/FFFFFFF04C006D2C" Ref="K2"  Part="1" 
-AR Path="/23C89C4C006D2C" Ref="K2"  Part="1" 
-AR Path="/26E50144C006D2C" Ref="K2"  Part="1" 
-AR Path="/2600004C006D2C" Ref="K2"  Part="1" 
-AR Path="/23D5EB4C006D2C" Ref="K2"  Part="1" 
-AR Path="/5004C006D2C" Ref="K2"  Part="1" 
-AR Path="/23DB0B4C006D2C" Ref="K2"  Part="1" 
-AR Path="/2756B1C4C006D2C" Ref="K2"  Part="1" 
-AR Path="/14C006D2C" Ref="K2"  Part="1" 
-AR Path="/23D8BC4C006D2C" Ref="K2"  Part="1" 
-AR Path="/5AD72BC24C006D2C" Ref="K2"  Part="1" 
-AR Path="/5FC4C006D2C" Ref="K2"  Part="1" 
-AR Path="/76BA4C006D2C" Ref="K2"  Part="1" 
-F 0 "K2" V 10350 6550 50  0000 C CNN
-F 1 "CTS-DSR" V 10450 6550 40  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" V 10400 6550 40  0001 C CNN
-F 3 "" H 10250 6550 50  0001 C CNN
-	1    10250 6550
-	1    0    0    -1  
-$EndComp
 Text Label 8500 5850 0    60   ~ 0
 RTS_TTL
 Text Label 8500 5350 0    60   ~ 0
@@ -5416,16 +5231,10 @@ Text Label 8500 6450 0    60   ~ 0
 SIN_TTL
 Text Label 9600 6200 0    60   ~ 0
 SIN_TTL
-Text Label 9600 6450 0    60   ~ 0
-DSR_TTL
 Text Label 9600 6000 0    60   ~ 0
 SOUT_TTL
-Text Label 9600 6800 0    60   ~ 0
-DTR_TTL
 Text Label 13050 4900 0    60   ~ 0
 TX
-Text Label 13750 4700 0    60   ~ 0
-DSR
 Text Label 13050 4800 0    60   ~ 0
 RX
 $Comp
@@ -7333,12 +7142,8 @@ NoConn ~ 8450 5150
 NoConn ~ 8450 5050
 Text Label 13050 5000 0    60   ~ 0
 DTR
-Text Label 11700 6800 0    60   ~ 0
-DTR
 Text Label 11700 6000 0    60   ~ 0
 TX
-Text Label 11700 6450 0    60   ~ 0
-DSR
 Text Label 11700 6200 0    60   ~ 0
 RX
 $Comp
@@ -10032,20 +9837,9 @@ Connection ~ 2300 12700
 Wire Wire Line
 	2300 12700 3250 12700
 Wire Wire Line
-	9500 6000 10050 6000
+	9550 6000 10050 6000
 Wire Wire Line
-	11650 6000 12000 6000
-$Comp
-L Connector_Generic:Conn_01x02 JP5
-U 1 1 5D2423FA
-P 9150 6450
-F 0 "JP5" H 9100 6650 50  0000 L CNN
-F 1 "TXRX" H 9100 6550 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9150 6450 50  0001 C CNN
-F 3 "~" H 9150 6450 50  0001 C CNN
-	1    9150 6450
-	1    0    0    -1  
-$EndComp
+	11650 6000 11950 6000
 $Comp
 L Connector_Generic:Conn_01x02 P6
 U 1 1 5D3216F7
@@ -10448,4 +10242,61 @@ Wire Wire Line
 Wire Wire Line
 	13500 5500 13500 5700
 Connection ~ 2300 12200
+Text Label 9600 6100 0    50   ~ 0
+CTS_TTL
+Text Label 9600 5900 0    50   ~ 0
+RTS_TTL
+Text Label 11700 6100 0    50   ~ 0
+CTS
+Text Label 11700 5900 0    50   ~ 0
+RTS
+NoConn ~ 8950 5750
+NoConn ~ 8950 5850
+$Comp
+L Device:R R16
+U 1 1 5D0607C6
+P 13000 5150
+F 0 "R16" H 13200 5100 50  0000 R CNN
+F 1 "470R" H 13250 5200 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 12930 5150 50  0001 C CNN
+F 3 "~" H 13000 5150 50  0001 C CNN
+	1    13000 5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR0148
+U 1 1 5D060AA0
+P 13000 5300
+AR Path="/5D060AA0" Ref="#PWR0148"  Part="1" 
+AR Path="/773F65F15D060AA0" Ref="#PWR?"  Part="1" 
+AR Path="/23BED45D060AA0" Ref="#PWR?"  Part="1" 
+AR Path="/23C5985D060AA0" Ref="#PWR?"  Part="1" 
+AR Path="/773F8EB45D060AA0" Ref="#PWR?"  Part="1" 
+AR Path="/25D060AA0" Ref="#PWR?"  Part="1" 
+AR Path="/95D060AA0" Ref="#PWR?"  Part="1" 
+AR Path="/FFFFFFF05D060AA0" Ref="#PWR?"  Part="1" 
+AR Path="/71126E5D060AA0" Ref="#PWR?"  Part="1" 
+AR Path="/48EF5D060AA0" Ref="#PWR?"  Part="1" 
+AR Path="/23CC3C5D060AA0" Ref="#PWR?"  Part="1" 
+AR Path="/1290D1E5D060AA0" Ref="#PWR?"  Part="1" 
+AR Path="/6FF0DD405D060AA0" Ref="#PWR?"  Part="1" 
+AR Path="/23C89C5D060AA0" Ref="#PWR?"  Part="1" 
+AR Path="/26E50145D060AA0" Ref="#PWR?"  Part="1" 
+AR Path="/2600005D060AA0" Ref="#PWR?"  Part="1" 
+AR Path="/5005D060AA0" Ref="#PWR?"  Part="1" 
+AR Path="/2756B1C5D060AA0" Ref="#PWR?"  Part="1" 
+AR Path="/15D060AA0" Ref="#PWR?"  Part="1" 
+AR Path="/23D8BC5D060AA0" Ref="#PWR?"  Part="1" 
+AR Path="/70F26E5D060AA0" Ref="#PWR?"  Part="1" 
+AR Path="/23DB0B5D060AA0" Ref="#PWR?"  Part="1" 
+AR Path="/5FC5D060AA0" Ref="#PWR?"  Part="1" 
+AR Path="/76BA5D060AA0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0148" H 13000 5400 30  0001 C CNN
+F 1 "VCC" H 13000 5400 30  0000 C CNN
+F 2 "" H 13000 5300 50  0001 C CNN
+F 3 "" H 13000 5300 50  0001 C CNN
+	1    13000 5300
+	-1   0    0    1   
+$EndComp
+NoConn ~ 13700 4700
 $EndSCHEMATC
