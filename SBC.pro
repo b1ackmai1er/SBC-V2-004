@@ -1,5 +1,5 @@
-update=16/01/2019 20:47:57
-last_client=kicad
+update=15/06/2019 07:04:13
+last_client=eeschema
 [pcbnew]
 version=1
 PadDrlX=320
@@ -39,3 +39,13 @@ EquName1=devcms
 [eeschema]
 version=1
 LibDir=
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=./
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
