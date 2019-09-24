@@ -875,10 +875,6 @@ Wire Wire Line
 Wire Wire Line
 	8950 6450 8450 6450
 Wire Wire Line
-	8950 5750 8450 5750
-Wire Wire Line
-	8950 5250 8450 5250
-Wire Wire Line
 	8100 9300 8100 9400
 Wire Wire Line
 	20450 6150 20000 6150
@@ -5122,10 +5118,6 @@ F 3 "" H 5450 2450 50  0001 C CNN
 	1    5450 2450
 	1    0    0    -1  
 $EndComp
-Text Label 8500 5250 0    60   ~ 0
-DSR_TTL
-Text Label 8500 5750 0    60   ~ 0
-DTR_TTL
 Text Label 8500 6550 0    60   ~ 0
 SOUT_TTL
 Text Label 8500 6450 0    60   ~ 0
@@ -7039,8 +7031,6 @@ NoConn ~ 8450 7050
 NoConn ~ 8450 6950
 NoConn ~ 8450 5950
 NoConn ~ 8450 5650
-NoConn ~ 8450 5150
-NoConn ~ 8450 5050
 Text Label 13050 5000 0    60   ~ 0
 DTR
 Text Label 11700 6000 0    60   ~ 0
@@ -10146,8 +10136,6 @@ Text Label 11700 6100 0    50   ~ 0
 CTS
 Text Label 11700 5900 0    50   ~ 0
 RTS
-NoConn ~ 8950 5750
-NoConn ~ 8950 5850
 $Comp
 L Device:R R16
 U 1 1 5D0607C6
@@ -10299,4 +10287,88 @@ F 3 "" H 5950 10400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5950 10100 6900 10100
+Wire Wire Line
+	8450 5250 8950 5250
+NoConn ~ 8450 5750
+$Comp
+L power:VCC #PWR?
+U 1 1 5CAD5A4F
+P 9150 5050
+AR Path="/5CAD5A4F" Ref="#PWR?"  Part="1" 
+AR Path="/773F65F15CAD5A4F" Ref="#PWR?"  Part="1" 
+AR Path="/23BED45CAD5A4F" Ref="#PWR?"  Part="1" 
+AR Path="/23C5985CAD5A4F" Ref="#PWR?"  Part="1" 
+AR Path="/773F8EB45CAD5A4F" Ref="#PWR?"  Part="1" 
+AR Path="/25CAD5A4F" Ref="#PWR?"  Part="1" 
+AR Path="/95CAD5A4F" Ref="#PWR?"  Part="1" 
+AR Path="/FFFFFFF05CAD5A4F" Ref="#PWR?"  Part="1" 
+AR Path="/71126E5CAD5A4F" Ref="#PWR?"  Part="1" 
+AR Path="/48EF5CAD5A4F" Ref="#PWR?"  Part="1" 
+AR Path="/23CC3C5CAD5A4F" Ref="#PWR?"  Part="1" 
+AR Path="/1290D1E5CAD5A4F" Ref="#PWR?"  Part="1" 
+AR Path="/6FF0DD405CAD5A4F" Ref="#PWR?"  Part="1" 
+AR Path="/23C89C5CAD5A4F" Ref="#PWR?"  Part="1" 
+AR Path="/26E50145CAD5A4F" Ref="#PWR?"  Part="1" 
+AR Path="/2600005CAD5A4F" Ref="#PWR?"  Part="1" 
+AR Path="/5005CAD5A4F" Ref="#PWR?"  Part="1" 
+AR Path="/2756B1C5CAD5A4F" Ref="#PWR?"  Part="1" 
+AR Path="/15CAD5A4F" Ref="#PWR?"  Part="1" 
+AR Path="/23D8BC5CAD5A4F" Ref="#PWR?"  Part="1" 
+AR Path="/70F26E5CAD5A4F" Ref="#PWR?"  Part="1" 
+AR Path="/23DB0B5CAD5A4F" Ref="#PWR?"  Part="1" 
+AR Path="/5FC5CAD5A4F" Ref="#PWR?"  Part="1" 
+AR Path="/76BA5CAD5A4F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9150 5150 30  0001 C CNN
+F 1 "VCC" H 9150 5150 30  0000 C CNN
+F 2 "" H 9150 5050 50  0001 C CNN
+F 3 "" H 9150 5050 50  0001 C CNN
+	1    9150 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 5150 8950 5150
+Wire Wire Line
+	8950 5150 8950 5250
+$Comp
+L SBC-rescue:GND #PWR?
+U 1 1 5CC9609F
+P 9150 5350
+AR Path="/5CC9609F" Ref="#PWR?"  Part="1" 
+AR Path="/773F65F15CC9609F" Ref="#PWR?"  Part="1" 
+AR Path="/23BED45CC9609F" Ref="#PWR?"  Part="1" 
+AR Path="/23C5985CC9609F" Ref="#PWR?"  Part="1" 
+AR Path="/773F8EB45CC9609F" Ref="#PWR?"  Part="1" 
+AR Path="/25CC9609F" Ref="#PWR?"  Part="1" 
+AR Path="/95CC9609F" Ref="#PWR?"  Part="1" 
+AR Path="/FFFFFFF05CC9609F" Ref="#PWR?"  Part="1" 
+AR Path="/71126E5CC9609F" Ref="#PWR?"  Part="1" 
+AR Path="/48EF5CC9609F" Ref="#PWR?"  Part="1" 
+AR Path="/23CC3C5CC9609F" Ref="#PWR?"  Part="1" 
+AR Path="/1290D1E5CC9609F" Ref="#PWR?"  Part="1" 
+AR Path="/6FF0DD405CC9609F" Ref="#PWR?"  Part="1" 
+AR Path="/23C89C5CC9609F" Ref="#PWR?"  Part="1" 
+AR Path="/26E50145CC9609F" Ref="#PWR?"  Part="1" 
+AR Path="/2600005CC9609F" Ref="#PWR?"  Part="1" 
+AR Path="/5005CC9609F" Ref="#PWR?"  Part="1" 
+AR Path="/2756B1C5CC9609F" Ref="#PWR?"  Part="1" 
+AR Path="/15CC9609F" Ref="#PWR?"  Part="1" 
+AR Path="/23D8BC5CC9609F" Ref="#PWR?"  Part="1" 
+AR Path="/70F26E5CC9609F" Ref="#PWR?"  Part="1" 
+AR Path="/23DB0B5CC9609F" Ref="#PWR?"  Part="1" 
+AR Path="/5FC5CC9609F" Ref="#PWR?"  Part="1" 
+AR Path="/76BA5CC9609F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9150 5350 30  0001 C CNN
+F 1 "GND" H 9150 5280 30  0001 C CNN
+F 2 "" H 9150 5350 50  0001 C CNN
+F 3 "" H 9150 5350 50  0001 C CNN
+	1    9150 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 5250 9150 5250
+Wire Wire Line
+	9150 5250 9150 5350
+Connection ~ 8950 5250
+Wire Wire Line
+	8450 5050 9150 5050
 $EndSCHEMATC
