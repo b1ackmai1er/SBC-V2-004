@@ -1,0 +1,594 @@
+Info: Checking netlist symbol footprint “K4:/4C006D37:SIL-3”.
+
+Info: Checking netlist symbol footprint “P5:/47E45F8E:8dip300”.
+
+Info: Checking netlist symbol footprint “P4:/47E4623F:8dip300”.
+
+Info: Checking netlist symbol footprint “P3:/47E552E5:PIN_ARRAY_5x2”.
+
+Info: Checking netlist symbol footprint “P2:/47C1CB92:molex-drive-connector”.
+
+Info: Checking netlist symbol footprint “P1:/47E85D27:pin_array_13x2”.
+
+Info: Checking netlist symbol footprint “K13:/50FB390D:SIL-3”.
+
+Info: Checking netlist symbol footprint “K12:/4C1EAE1F:SIL-3”.
+
+Info: Checking netlist symbol footprint “K11:/4C0B0225:SIL-3”.
+
+Info: Checking netlist symbol footprint “K10:/4C084594:SIL-3”.
+
+Info: Checking netlist symbol footprint “K9:/4C02EEEA:SIL-3”.
+
+Info: Checking netlist symbol footprint “K8:/4C02E83F:SIL-3”.
+
+Info: Checking netlist symbol footprint “K7:/4C02E458:SIL-3”.
+
+Info: Checking netlist symbol footprint “K6:/4C02E4CF:SIL-3”.
+
+Info: Checking netlist symbol footprint “K5:/4C006D3F:SIL-3”.
+
+Info: Checking netlist symbol footprint “P6:/47F6CCE4:SIL-2”.
+
+Info: Checking netlist symbol footprint “K3:/4C006D32:SIL-3”.
+
+Info: Checking netlist symbol footprint “K2:/4C006D2C:SIL-3”.
+
+Info: Checking netlist symbol footprint “K1:/4C005B68:SIL-3”.
+
+Info: Checking netlist symbol footprint “JP2:/4C02EFF7:SIL-2”.
+
+Info: Checking netlist symbol footprint “JP1:/4C028868:SIL-2”.
+
+Info: Checking netlist symbol footprint “hole2:/4C002A4E:1pin”.
+
+Info: Checking netlist symbol footprint “hole1:/4C002A4A:1pin”.
+
+Info: Checking netlist symbol footprint “D2:/4C024F50:D3”.
+
+Info: Checking netlist symbol footprint “D1:/48069BB2:LEDV”.
+
+Info: Checking netlist symbol footprint “C32:/4C0D9988:C2”.
+
+Info: Checking netlist symbol footprint “C31:/4C02502F:C1V5”.
+
+Info: Checking netlist symbol footprint “C30:/47EF011C:C2”.
+
+Info: Checking netlist symbol footprint “C29:/47EF0113:C2”.
+
+Info: Checking netlist symbol footprint “C28:/47E457A5:C1V5”.
+
+Info: Checking netlist symbol footprint “U17:/4C018863:20dip300”.
+
+Info: Checking netlist symbol footprint “U8:/47E98BB2:20dip300”.
+
+Info: Checking netlist symbol footprint “U9:/47E98BC1:20dip300”.
+
+Info: Checking netlist symbol footprint “U10:/47EC28B8:14dip300”.
+
+Info: Checking netlist symbol footprint “U11:/47E98C1F:20dip300”.
+
+Info: Checking netlist symbol footprint “U7:/4C0028A5:14dip300”.
+
+Info: Checking netlist symbol footprint “U12:/4C01BB66:16dip300”.
+
+Info: Checking netlist symbol footprint “U6:/4C0026D4:16dip300”.
+
+Info: Checking netlist symbol footprint “U13:/4C01878F:16dip300”.
+
+Info: Checking netlist symbol footprint “U14:/47EEE3FF:14dip300”.
+
+Info: Checking netlist symbol footprint “U5:/4C00290F:14dip300”.
+
+Info: Checking netlist symbol footprint “U15:/47EEA819:14dip300”.
+
+Info: Checking netlist symbol footprint “U4:/4C002534:14dip300”.
+
+Info: Checking netlist symbol footprint “U16:/47EEA9AF:14dip300”.
+
+Info: Checking netlist symbol footprint “U3:/4C0026AE:14dip300”.
+
+Info: Checking netlist symbol footprint “C1:/47E88034:C2”.
+
+Info: Checking netlist symbol footprint “U2:/47EEBEE4:32dip600”.
+
+Info: Checking netlist symbol footprint “U18:/4C0194CD:16dip300”.
+
+Info: Checking netlist symbol footprint “U19:/47C0BE8D:40dip600”.
+
+Info: Checking netlist symbol footprint “U20:/47EAEFC0:C96ABCMC”.
+
+Info: Checking netlist symbol footprint “U1:/47C0BEEA:40dip600”.
+
+Info: Checking netlist symbol footprint “SW1:/4C0443BA:SW_PUSH_SMALL”.
+
+Info: Checking netlist symbol footprint “RR2:/4C1CDD1C:SIL-6”.
+
+Info: Checking netlist symbol footprint “RR1:/4C1694AF:SIL-6”.
+
+Info: Checking netlist symbol footprint “R12:/4C1EADA7:R3”.
+
+Info: Checking netlist symbol footprint “R11:/4C02EF4B:R3”.
+
+Info: Checking netlist symbol footprint “R9:/48069BBF:R3”.
+
+Info: Checking netlist symbol footprint “R2:/47C17AAF:R3”.
+
+Info: Checking netlist symbol footprint “R1:/47C17AB9:R3”.
+
+Info: Checking netlist symbol footprint “C19:/47EEDBC8:C2”.
+
+Info: Checking netlist symbol footprint “C27:/47E45B23:C1V5”.
+
+Info: Checking netlist symbol footprint “C11:/47E550D0:C2”.
+
+Info: Checking netlist symbol footprint “C24:/47E45AB2:C1V5”.
+
+Info: Checking netlist symbol footprint “C15:/47EEDBCB:C2”.
+
+Info: Checking netlist symbol footprint “C9:/47E550C9:C2”.
+
+Info: Checking netlist symbol footprint “C17:/47EEDBC7:C2”.
+
+Info: Checking netlist symbol footprint “C23:/47E550E9:C2”.
+
+Info: Checking netlist symbol footprint “C6:/47EEDC7C:C2”.
+
+Info: Checking netlist symbol footprint “U22:/47C0BF2B:16dip300”.
+
+Info: Checking netlist symbol footprint “C10:/47EEDC79:C2”.
+
+Info: Checking netlist symbol footprint “C22:/47EEDC81:C2”.
+
+Info: Checking netlist symbol footprint “U23:/47EEB231:32dip600”.
+
+Info: Checking netlist symbol footprint “U26:/4C1D2D5B:14dip300”.
+
+Info: Checking netlist symbol footprint “C7:/47E550B9:C2”.
+
+Info: Checking netlist symbol footprint “C21:/47EEDBC9:C2”.
+
+Info: Checking netlist symbol footprint “C20:/47EEDC80:C2”.
+
+Info: Checking netlist symbol footprint “C16:/47EEDC83:C2”.
+
+Info: Checking netlist symbol footprint “U25:/4C0102F4:8dip300”.
+
+Info: Checking netlist symbol footprint “C13:/47EEDBCA:C2”.
+
+Info: Checking netlist symbol footprint “BT1:/47EEEA29:SIL-2”.
+
+Info: Checking netlist symbol footprint “C2:/47C17AE4:C1V5”.
+
+Info: Checking netlist symbol footprint “C18:/47EEDC7F:C2”.
+
+Info: Checking netlist symbol footprint “X1:/47EEE8BB:SIL-2”.
+
+Info: Checking netlist symbol footprint “C26:/47E4587A:C1V5”.
+
+Info: Checking netlist symbol footprint “C3:/47E550EA:C2”.
+
+Info: Checking netlist symbol footprint “U21:/47EEE5CA:8dip300”.
+
+Info: Checking netlist symbol footprint “C14:/47EEDC82:C2”.
+
+Info: Checking netlist symbol footprint “U24:/47E986B6:40dip600”.
+
+Info: Checking netlist symbol footprint “C8:/47EEDC78:C2”.
+
+Info: Checking netlist symbol footprint “C4:/47EEDC7B:C2”.
+
+Info: Checking netlist symbol footprint “C12:/47EEDC7A:C2”.
+
+Info: Checking netlist symbol footprint “C5:/47E550EB:C2”.
+
+Info: Checking netlist symbol footprint “C25:/47E45A57:C1V5”.
+
+Changing footprint “U25:/4C0102F4” pad “6” net name from “N-000136” to “Net-(U23-Pad22)”.
+
+Changing footprint “U18:/4C0194CD” pad “5” net name from “” to “Net-(U18-Pad5)”.
+
+Changing footprint “U20:/47EAEFC0” pad “A12” net name from “” to “Net-(U20-PadA12)”.
+
+Changing footprint “U20:/47EAEFC0” pad “A13” net name from “” to “Net-(U20-PadA13)”.
+
+Changing footprint “U20:/47EAEFC0” pad “A14” net name from “” to “Net-(U20-PadA14)”.
+
+Changing footprint “U20:/47EAEFC0” pad “A15” net name from “” to “Net-(U20-PadA15)”.
+
+Changing footprint “U20:/47EAEFC0” pad “A16” net name from “” to “Net-(U20-PadA16)”.
+
+Changing footprint “U20:/47EAEFC0” pad “A17” net name from “” to “Net-(U20-PadA17)”.
+
+Changing footprint “U16:/47EEA9AF” pad “9” net name from “N-000138” to “Net-(U16-Pad1)”.
+
+Changing footprint “U20:/47EAEFC0” pad “A19” net name from “” to “Net-(U20-PadA19)”.
+
+Changing footprint “U20:/47EAEFC0” pad “A21” net name from “” to “Net-(U20-PadA21)”.
+
+Changing footprint “U20:/47EAEFC0” pad “A22” net name from “” to “Net-(U20-PadA22)”.
+
+Changing footprint “U15:/47EEA819” pad “3” net name from “N-000204” to “Net-(U15-Pad3)”.
+
+Changing footprint “U7:/4C0028A5” pad “12” net name from “N-000244” to “Net-(U26-Pad1)”.
+
+Changing footprint “X1:/47EEE8BB” pad “2” net name from “N-000226” to “Net-(U21-Pad2)”.
+
+Changing footprint “X1:/47EEE8BB” pad “1” net name from “N-000254” to “Net-(U21-Pad3)”.
+
+Changing footprint “U12:/4C01BB66” pad “12” net name from “” to “Net-(U12-Pad12)”.
+
+Changing footprint “U26:/4C1D2D5B” pad “13” net name from “” to “Net-(U26-Pad13)”.
+
+Changing footprint “U12:/4C01BB66” pad “15” net name from “” to “Net-(U12-Pad15)”.
+
+Changing footprint “U26:/4C1D2D5B” pad “11” net name from “” to “Net-(U26-Pad11)”.
+
+Changing footprint “U14:/47EEE3FF” pad “8” net name from “N-000035” to “Net-(U14-Pad12)”.
+
+Changing footprint “U14:/47EEE3FF” pad “10” net name from “N-000036” to “Net-(U14-Pad10)”.
+
+Changing footprint “U14:/47EEE3FF” pad “12” net name from “N-000035” to “Net-(U14-Pad12)”.
+
+Changing footprint “U26:/4C1D2D5B” pad “9” net name from “” to “Net-(U26-Pad9)”.
+
+Changing footprint “U15:/47EEA819” pad “2” net name from “N-000203” to “Net-(U15-Pad2)”.
+
+Changing footprint “U18:/4C0194CD” pad “2” net name from “” to “Net-(U18-Pad2)”.
+
+Changing footprint “U15:/47EEA819” pad “6” net name from “N-000120” to “Net-(U15-Pad6)”.
+
+Changing footprint “U15:/47EEA819” pad “9” net name from “N-000120” to “Net-(U15-Pad6)”.
+
+Changing footprint “U15:/47EEA819” pad “12” net name from “N-000123” to “Net-(U15-Pad12)”.
+
+Changing footprint “U26:/4C1D2D5B” pad “5” net name from “N-000245” to “Net-(U26-Pad5)”.
+
+Changing footprint “U16:/47EEA9AF” pad “1” net name from “N-000138” to “Net-(U16-Pad1)”.
+
+Changing footprint “U16:/47EEA9AF” pad “2” net name from “N-000137” to “Net-(K10-Pad2)”.
+
+Changing footprint “U16:/47EEA9AF” pad “4” net name from “N-000138” to “Net-(U16-Pad1)”.
+
+Changing footprint “U20:/47EAEFC0” pad “B5” net name from “” to “/B_A23”.
+
+Changing footprint “U16:/47EEA9AF” pad “12” net name from “N-000138” to “Net-(U16-Pad1)”.
+
+Changing footprint “U26:/4C1D2D5B” pad “4” net name from “N-000228” to “Net-(K12-Pad2)”.
+
+Changing footprint “U17:/4C018863” pad “12” net name from “/B_/RESET” to “/B_/RESOUT”.
+
+Changing footprint “U26:/4C1D2D5B” pad “1” net name from “N-000244” to “Net-(U26-Pad1)”.
+
+Changing footprint “U20:/47EAEFC0” pad “B30” net name from “” to “/B_OFF”.
+
+Changing footprint “U20:/47EAEFC0” pad “B22” net name from “” to “/B_IOWR”.
+
+Changing footprint “U20:/47EAEFC0” pad “B23” net name from “” to “Net-(U20-PadB23)”.
+
+Changing footprint “U22:/47C0BF2B” pad “5” net name from “N-000168” to “Net-(C25-Pad2)”.
+
+Changing footprint “U20:/47EAEFC0” pad “B24” net name from “” to “/B_IORC”.
+
+Changing footprint “U20:/47EAEFC0” pad “B25” net name from “” to “/B_MRDC”.
+
+Changing footprint “U22:/47C0BF2B” pad “4” net name from “N-000167” to “Net-(C25-Pad1)”.
+
+Changing footprint “U20:/47EAEFC0” pad “B26” net name from “” to “Net-(U20-PadB26)”.
+
+Changing footprint “U20:/47EAEFC0” pad “B27” net name from “” to “/B_MWRC”.
+
+Changing footprint “U22:/47C0BF2B” pad “3” net name from “N-000169” to “Net-(C24-Pad2)”.
+
+Changing footprint “U20:/47EAEFC0” pad “B28” net name from “” to “/B_DS0”.
+
+Changing footprint “U22:/47C0BF2B” pad “2” net name from “N-000176” to “Net-(C26-Pad1)”.
+
+Changing footprint “U22:/47C0BF2B” pad “1” net name from “N-000175” to “Net-(C24-Pad1)”.
+
+Changing footprint “U20:/47EAEFC0” pad “B29” net name from “” to “/B_DS1”.
+
+Changing footprint “U22:/47C0BF2B” pad “6” net name from “N-000177” to “Net-(C27-Pad2)”.
+
+Changing footprint “U20:/47EAEFC0” pad “B31” net name from “” to “/B_LOCK”.
+
+Changing footprint “U21:/47EEE5CA” pad “3” net name from “N-000254” to “Net-(U21-Pad3)”.
+
+Changing footprint “U20:/47EAEFC0” pad “C10” net name from “” to “Net-(U20-PadC10)”.
+
+Changing footprint “U21:/47EEE5CA” pad “2” net name from “N-000226” to “Net-(U21-Pad2)”.
+
+Changing footprint “U20:/47EAEFC0” pad “C11” net name from “” to “/B_/IEI”.
+
+Changing footprint “U20:/47EAEFC0” pad “C12” net name from “” to “Net-(U20-PadC12)”.
+
+Changing footprint “U20:/47EAEFC0” pad “C13” net name from “” to “Net-(U20-PadC13)”.
+
+Changing footprint “U20:/47EAEFC0” pad “C31” net name from “N-000189” to “/B_/RESET”.
+
+Changing footprint “U20:/47EAEFC0” pad “C15” net name from “” to “Net-(U20-PadC15)”.
+
+Changing footprint “U20:/47EAEFC0” pad “C26” net name from “N-000062” to “/B_/RESOUT”.
+
+Changing footprint “U20:/47EAEFC0” pad “C19” net name from “” to “Net-(U20-PadC19)”.
+
+Changing footprint “U20:/47EAEFC0” pad “C23” net name from “” to “Net-(U20-PadC23)”.
+
+Changing footprint “U20:/47EAEFC0” pad “B13” net name from “” to “/B_D15”.
+
+Changing footprint “U20:/47EAEFC0” pad “A25” net name from “” to “Net-(U20-PadA25)”.
+
+Changing footprint “U20:/47EAEFC0” pad “A26” net name from “” to “Net-(U20-PadA26)”.
+
+Changing footprint “U20:/47EAEFC0” pad “B2” net name from “” to “/B_A20”.
+
+Changing footprint “U23:/47EEB231” pad “22” net name from “N-000136” to “Net-(U23-Pad22)”.
+
+Changing footprint “U20:/47EAEFC0” pad “B3” net name from “” to “/B_A21”.
+
+Changing footprint “U20:/47EAEFC0” pad “B4” net name from “” to “/B_A22”.
+
+Changing footprint “U20:/47EAEFC0” pad “B6” net name from “” to “/B_D8”.
+
+Changing footprint “U20:/47EAEFC0” pad “B7” net name from “” to “/B_D9”.
+
+Changing footprint “U20:/47EAEFC0” pad “B8” net name from “” to “/B_D10”.
+
+Changing footprint “U20:/47EAEFC0” pad “B9” net name from “” to “/B_D11”.
+
+Changing footprint “U20:/47EAEFC0” pad “B10” net name from “” to “/B_D12”.
+
+Changing footprint “U20:/47EAEFC0” pad “B11” net name from “” to “/B_D13”.
+
+Changing footprint “U20:/47EAEFC0” pad “B12” net name from “” to “/B_D14”.
+
+Changing footprint “U23:/47EEB231” pad “30” net name from “N-000274” to “Net-(K7-Pad2)”.
+
+Changing footprint “U20:/47EAEFC0” pad “B14” net name from “” to “/B_IRQ7”.
+
+Changing footprint “U22:/47C0BF2B” pad “14” net name from “N-000178” to “Net-(K5-Pad2)”.
+
+Changing footprint “U20:/47EAEFC0” pad “B15” net name from “” to “/B_IRQ6”.
+
+Changing footprint “U20:/47EAEFC0” pad “B16” net name from “” to “/B_IRQ5”.
+
+Changing footprint “U22:/47C0BF2B” pad “13” net name from “N-000238” to “Net-(K4-Pad2)”.
+
+Changing footprint “U20:/47EAEFC0” pad “B17” net name from “” to “/B_IRQ4”.
+
+Changing footprint “U20:/47EAEFC0” pad “B18” net name from “” to “/B_IRQ3”.
+
+Changing footprint “U22:/47C0BF2B” pad “12” net name from “N-000232” to “Net-(K2-Pad2)”.
+
+Changing footprint “U20:/47EAEFC0” pad “B19” net name from “” to “/B_IRQ2”.
+
+Changing footprint “U22:/47C0BF2B” pad “11” net name from “N-000227” to “Net-(K3-Pad2)”.
+
+Changing footprint “U20:/47EAEFC0” pad “B20” net name from “” to “/B_IRQ1”.
+
+Changing footprint “U20:/47EAEFC0” pad “B21” net name from “” to “/B_IRQ0”.
+
+Changing footprint “D2:/4C024F50” pad “1” net name from “N-000143” to “Net-(C2-Pad1)”.
+
+Changing footprint “C25:/47E45A57” pad “1” net name from “N-000167” to “Net-(C25-Pad1)”.
+
+Changing footprint “C25:/47E45A57” pad “2” net name from “N-000168” to “Net-(C25-Pad2)”.
+
+Changing footprint “C26:/47E4587A” value from “1.0_uF” to “1.0 uF”.
+
+Changing footprint “C26:/47E4587A” pad “1” net name from “N-000176” to “Net-(C26-Pad1)”.
+
+Changing footprint “C27:/47E45B23” value from “1.0_uF” to “1.0 uF”.
+
+Changing footprint “C27:/47E45B23” pad “2” net name from “N-000177” to “Net-(C27-Pad2)”.
+
+Changing footprint “C28:/47E457A5” value from “1.0_uF” to “1.0 uF”.
+
+Changing footprint “C29:/47EF0113” value from “0.1_uF” to “0.1 uF”.
+
+Changing footprint “C30:/47EF011C” value from “0.1_uF” to “0.1 uF”.
+
+Changing footprint “C31:/4C02502F” value from “22_uF” to “22 uF”.
+
+Changing footprint “C32:/4C0D9988” value from “0.1_uF” to “0.1 uF”.
+
+Changing footprint “D1:/48069BB2” pad “1” net name from “N-000229” to “Net-(D1-Pad1)”.
+
+Changing footprint “D1:/48069BB2” pad “2” net name from “N-000256” to “Net-(D1-Pad2)”.
+
+Changing footprint “C25:/47E45A57” value from “1.0_uF” to “1.0 uF”.
+
+Changing footprint “JP2:/4C02EFF7” pad “2” net name from “N-000230” to “Net-(JP2-Pad2)”.
+
+Changing footprint “K1:/4C005B68” pad “2” net name from “N-000235” to “Net-(K1-Pad2)”.
+
+Changing footprint “K2:/4C006D2C” pad “2” net name from “N-000232” to “Net-(K2-Pad2)”.
+
+Changing footprint “K3:/4C006D32” pad “2” net name from “N-000227” to “Net-(K3-Pad2)”.
+
+Changing footprint “K4:/4C006D37” pad “2” net name from “N-000238” to “Net-(K4-Pad2)”.
+
+Changing footprint “K5:/4C006D3F” pad “2” net name from “N-000178” to “Net-(K5-Pad2)”.
+
+Changing footprint “K6:/4C02E4CF” pad “2” net name from “N-000077” to “Net-(K6-Pad2)”.
+
+Changing footprint “K7:/4C02E458” pad “2” net name from “N-000274” to “Net-(K7-Pad2)”.
+
+Changing footprint “K8:/4C02E83F” pad “2” net name from “N-000265” to “Net-(K8-Pad2)”.
+
+Changing footprint “K10:/4C084594” pad “2” net name from “N-000137” to “Net-(K10-Pad2)”.
+
+Changing footprint “K11:/4C0B0225” pad “2” net name from “N-000241” to “Net-(K11-Pad2)”.
+
+Changing footprint “K12:/4C1EAE1F” pad “2” net name from “N-000228” to “Net-(K12-Pad2)”.
+
+Changing footprint “K13:/50FB390D” pad “1” net name from “N-000062” to “/B_/RESOUT”.
+
+Changing footprint “C13:/47EEDBCA” value from “0.1_uF” to “0.1 uF”.
+
+Changing footprint “C1:/47E88034” value from “0.1_uF” to “0.1 uF”.
+
+Changing footprint “C2:/47C17AE4” value from “10_uF” to “10 uF”.
+
+Changing footprint “C2:/47C17AE4” pad “1” net name from “N-000143” to “Net-(C2-Pad1)”.
+
+Changing footprint “C3:/47E550EA” value from “0.1_uF” to “0.1 uF”.
+
+Changing footprint “C4:/47EEDC7B” value from “0.1_uF” to “0.1 uF”.
+
+Changing footprint “C5:/47E550EB” value from “0.1_uF” to “0.1 uF”.
+
+Changing footprint “C6:/47EEDC7C” value from “0.1_uF” to “0.1 uF”.
+
+Changing footprint “C7:/47E550B9” value from “0.1_uF” to “0.1 uF”.
+
+Changing footprint “C8:/47EEDC78” value from “0.1_uF” to “0.1 uF”.
+
+Changing footprint “C9:/47E550C9” value from “0.1_uF” to “0.1 uF”.
+
+Changing footprint “C10:/47EEDC79” value from “0.1_uF” to “0.1 uF”.
+
+Changing footprint “C11:/47E550D0” value from “0.1_uF” to “0.1 uF”.
+
+Changing footprint “C12:/47EEDC7A” value from “0.1_uF” to “0.1 uF”.
+
+Changing footprint “K13:/50FB390D” pad “3” net name from “N-000189” to “//RESET_IN”.
+
+Changing footprint “C14:/47EEDC82” value from “0.1_uF” to “0.1 uF”.
+
+Changing footprint “C15:/47EEDBCB” value from “0.1_uF” to “0.1 uF”.
+
+Changing footprint “C16:/47EEDC83” value from “0.1_uF” to “0.1 uF”.
+
+Changing footprint “C17:/47EEDBC7” value from “0.1_uF” to “0.1 uF”.
+
+Changing footprint “C18:/47EEDC7F” value from “0.1_uF” to “0.1 uF”.
+
+Changing footprint “C19:/47EEDBC8” value from “0.1_uF” to “0.1 uF”.
+
+Changing footprint “C20:/47EEDC80” value from “0.1_uF” to “0.1 uF”.
+
+Changing footprint “C21:/47EEDBC9” value from “0.1_uF” to “0.1 uF”.
+
+Changing footprint “C22:/47EEDC81” value from “0.1_uF” to “0.1 uF”.
+
+Changing footprint “C23:/47E550E9” value from “0.1_uF” to “0.1 uF”.
+
+Changing footprint “C24:/47E45AB2” value from “1.0_uF” to “1.0 uF”.
+
+Changing footprint “C24:/47E45AB2” pad “1” net name from “N-000175” to “Net-(C24-Pad1)”.
+
+Changing footprint “C24:/47E45AB2” pad “2” net name from “N-000169” to “Net-(C24-Pad2)”.
+
+Changing footprint “U4:/4C002534” pad “8” net name from “” to “Net-(U4-Pad8)”.
+
+Changing footprint “U1:/47C0BEEA” pad “39” net name from “” to “Net-(U1-Pad39)”.
+
+Changing footprint “U2:/47EEBEE4” pad “1” net name from “N-000265” to “Net-(K8-Pad2)”.
+
+Changing footprint “U2:/47EEBEE4” pad “30” net name from “N-000235” to “Net-(K1-Pad2)”.
+
+Changing footprint “U2:/47EEBEE4” pad “31” net name from “N-000077” to “Net-(K6-Pad2)”.
+
+Changing footprint “U3:/4C0026AE” pad “3” net name from “N-000203” to “Net-(U15-Pad2)”.
+
+Changing footprint “U3:/4C0026AE” pad “4” net name from “N-000204” to “Net-(U15-Pad3)”.
+
+Changing footprint “U3:/4C0026AE” pad “5” net name from “N-000206” to “Net-(U3-Pad5)”.
+
+Changing footprint “U3:/4C0026AE” pad “8” net name from “” to “Net-(U3-Pad8)”.
+
+Changing footprint “U3:/4C0026AE” pad “9” net name from “” to “Net-(U3-Pad9)”.
+
+Changing footprint “U3:/4C0026AE” pad “10” net name from “” to “Net-(U3-Pad10)”.
+
+Changing footprint “U3:/4C0026AE” pad “11” net name from “N-000138” to “Net-(U16-Pad1)”.
+
+Changing footprint “U3:/4C0026AE” pad “13” net name from “N-000241” to “Net-(K11-Pad2)”.
+
+Changing footprint “U4:/4C002534” pad “6” net name from “N-000206” to “Net-(U3-Pad5)”.
+
+Changing footprint “U1:/47C0BEEA” pad “38” net name from “” to “Net-(U1-Pad38)”.
+
+Changing footprint “U4:/4C002534” pad “9” net name from “” to “Net-(U4-Pad9)”.
+
+Changing footprint “U4:/4C002534” pad “10” net name from “” to “Net-(U4-Pad10)”.
+
+Changing footprint “U4:/4C002534” pad “11” net name from “” to “Net-(U4-Pad11)”.
+
+Changing footprint “U4:/4C002534” pad “12” net name from “N-000036” to “Net-(U14-Pad10)”.
+
+Changing footprint “U5:/4C00290F” pad “9” net name from “N-000230” to “Net-(JP2-Pad2)”.
+
+Changing footprint “U5:/4C00290F” pad “11” net name from “N-000229” to “Net-(D1-Pad1)”.
+
+Changing footprint “U5:/4C00290F” pad “12” net name from “N-000090” to “Net-(U5-Pad12)”.
+
+Changing footprint “U6:/4C0026D4” pad “9” net name from “” to “Net-(U6-Pad9)”.
+
+Changing footprint “U6:/4C0026D4” pad “11” net name from “” to “Net-(U6-Pad11)”.
+
+Changing footprint “U7:/4C0028A5” pad “1” net name from “N-000143” to “Net-(C2-Pad1)”.
+
+Changing footprint “U7:/4C0028A5” pad “5” net name from “N-000120” to “Net-(U15-Pad6)”.
+
+Changing footprint “U7:/4C0028A5” pad “6” net name from “N-000123” to “Net-(U15-Pad12)”.
+
+Changing footprint “U7:/4C0028A5” pad “8” net name from “N-000090” to “Net-(U5-Pad12)”.
+
+Changing footprint “R1:/47C17AB9” pad “1” net name from “N-000143” to “Net-(C2-Pad1)”.
+
+Changing footprint “P2:/47C1CB92” pad “1” net name from “” to “Net-(P2-Pad1)”.
+
+Changing footprint “P3:/47E552E5” pad “1” net name from “” to “Net-(P3-Pad1)”.
+
+Changing footprint “P3:/47E552E5” pad “8” net name from “” to “Net-(P3-Pad8)”.
+
+Changing footprint “P3:/47E552E5” pad “10” net name from “” to “Net-(P3-Pad10)”.
+
+Changing footprint “P4:/47E4623F” pad “2” net name from “” to “Net-(P4-Pad2)”.
+
+Changing footprint “P4:/47E4623F” pad “3” net name from “” to “Net-(P4-Pad3)”.
+
+Changing footprint “P4:/47E4623F” pad “6” net name from “” to “Net-(P4-Pad6)”.
+
+Changing footprint “P4:/47E4623F” pad “7” net name from “” to “Net-(P4-Pad7)”.
+
+Changing footprint “P5:/47E45F8E” pad “2” net name from “” to “Net-(P5-Pad2)”.
+
+Changing footprint “P5:/47E45F8E” pad “3” net name from “” to “Net-(P5-Pad3)”.
+
+Changing footprint “P5:/47E45F8E” pad “6” net name from “” to “Net-(P5-Pad6)”.
+
+Changing footprint “P5:/47E45F8E” pad “7” net name from “” to “Net-(P5-Pad7)”.
+
+Changing footprint “P6:/47F6CCE4” pad “2” net name from “N-000144” to “//RESET_IN”.
+
+Changing footprint “U7:/4C0028A5” pad “10” net name from “N-000245” to “Net-(U26-Pad5)”.
+
+Changing footprint “R1:/47C17AB9” pad “2” net name from “N-000144” to “//RESET_IN”.
+
+Changing footprint “R2:/47C17AAF” pad “2” net name from “N-000143” to “Net-(C2-Pad1)”.
+
+Changing footprint “R9:/48069BBF” pad “1” net name from “N-000256” to “Net-(D1-Pad2)”.
+
+Changing footprint “R11:/4C02EF4B” pad “2” net name from “N-000230” to “Net-(JP2-Pad2)”.
+
+Changing footprint “SW1:/4C0443BA” pad “2” net name from “N-000144” to “//RESET_IN”.
+
+Changing footprint “SW1:/4C0443BA” pad “2” net name from “N-000144” to “//RESET_IN”.
+
+Changing footprint “U1:/47C0BEEA” pad “9” net name from “N-000225” to “Net-(U1-Pad15)”.
+
+Changing footprint “U1:/47C0BEEA” pad “15” net name from “N-000225” to “Net-(U1-Pad15)”.
+
+Changing footprint “U1:/47C0BEEA” pad “17” net name from “” to “Net-(U1-Pad17)”.
+
+Changing footprint “U1:/47C0BEEA” pad “23” net name from “” to “Net-(U1-Pad23)”.
+
+Changing footprint “U1:/47C0BEEA” pad “24” net name from “” to “Net-(U1-Pad24)”.
+
+Changing footprint “U1:/47C0BEEA” pad “31” net name from “” to “Net-(U1-Pad31)”.
+
+Changing footprint “U1:/47C0BEEA” pad “34” net name from “” to “Net-(U1-Pad34)”.
+
