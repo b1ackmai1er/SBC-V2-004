@@ -3133,7 +3133,7 @@ NoConn ~ 20000 9250
 $Comp
 L SBC-rescue:GND #PWR012
 U 1 1 47EEEA38
-P 6400 10700
+P 6300 10700
 AR Path="/47EEEA38" Ref="#PWR012"  Part="1" 
 AR Path="/773F65F147EEEA38" Ref="#PWR012"  Part="1" 
 AR Path="/23BED447EEEA38" Ref="#PWR013"  Part="1" 
@@ -3158,17 +3158,17 @@ AR Path="/70F26E47EEEA38" Ref="#PWR013"  Part="1"
 AR Path="/23DB0B47EEEA38" Ref="#PWR013"  Part="1" 
 AR Path="/5FC47EEEA38" Ref="#PWR012"  Part="1" 
 AR Path="/76BA47EEEA38" Ref="#PWR012"  Part="1" 
-F 0 "#PWR012" H 6400 10700 30  0001 C CNN
-F 1 "GND" H 6400 10630 30  0001 C CNN
-F 2 "" H 6400 10700 50  0001 C CNN
-F 3 "" H 6400 10700 50  0001 C CNN
-	1    6400 10700
+F 0 "#PWR012" H 6300 10700 30  0001 C CNN
+F 1 "GND" H 6300 10630 30  0001 C CNN
+F 2 "" H 6300 10700 50  0001 C CNN
+F 3 "" H 6300 10700 50  0001 C CNN
+	1    6300 10700
 	1    0    0    -1  
 $EndComp
 $Comp
-L SBC-rescue:BATTERY BT1
+L Connector_Generic:Conn_01x02 BT1
 U 1 1 47EEEA29
-P 6400 10400
+P 6500 10350
 AR Path="/773F65F147EEEA29" Ref="BT1"  Part="1" 
 AR Path="/23C59847EEEA29" Ref="BT1"  Part="1" 
 AR Path="/DE2D47EEEA29" Ref="BT1"  Part="1" 
@@ -3193,12 +3193,12 @@ AR Path="/147EEEA29" Ref="BT1"  Part="1"
 AR Path="/23D8BC47EEEA29" Ref="BT1"  Part="1" 
 AR Path="/5FC47EEEA29" Ref="BT1"  Part="1" 
 AR Path="/76BA47EEEA29" Ref="BT1"  Part="1" 
-F 0 "BT1" H 6400 10600 50  0000 C CNN
-F 1 "BATTERY" H 6400 10210 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6400 10310 50  0001 C CNN
-F 3 "" H 6400 10400 50  0001 C CNN
-	1    6400 10400
-	0    1    1    0   
+F 0 "BT1" H 6500 10450 50  0000 C CNN
+F 1 "SUPER" H 6500 10160 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6500 10260 50  0001 C CNN
+F 3 "" H 6500 10350 50  0001 C CNN
+	1    6500 10350
+	1    0    0    -1  
 $EndComp
 Text Label 1300 10050 0    60   ~ 0
 BUF_Q7
@@ -8412,8 +8412,6 @@ Wire Wire Line
 	4600 10250 4600 10100
 Wire Wire Line
 	5550 10700 5950 10700
-Wire Wire Line
-	5950 10100 6400 10100
 Connection ~ 5950 10100
 Wire Wire Line
 	4600 10100 5950 10100
@@ -10299,4 +10297,83 @@ F 3 "" H 13000 5300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 NoConn ~ 13700 4700
+$Comp
+L SBC-rescue:BATTERY BT?
+U 1 1 5C762D3A
+P 6900 10400
+AR Path="/773F65F15C762D3A" Ref="BT?"  Part="1" 
+AR Path="/23C5985C762D3A" Ref="BT?"  Part="1" 
+AR Path="/DE2D5C762D3A" Ref="BT?"  Part="1" 
+AR Path="/25C762D3A" Ref="BT?"  Part="1" 
+AR Path="/23BED45C762D3A" Ref="BT?"  Part="1" 
+AR Path="/773F8EB45C762D3A" Ref="BT?"  Part="1" 
+AR Path="/5C762D3A" Ref="C34"  Part="1" 
+AR Path="/95C762D3A" Ref="BT?"  Part="1" 
+AR Path="/FFFFFFF05C762D3A" Ref="BT?"  Part="1" 
+AR Path="/48EF5C762D3A" Ref="BT?"  Part="1" 
+AR Path="/23CC3C5C762D3A" Ref="BT?"  Part="1" 
+AR Path="/1290D1E5C762D3A" Ref="BT?"  Part="1" 
+AR Path="/23C89C5C762D3A" Ref="BT?"  Part="1" 
+AR Path="/26E50145C762D3A" Ref="BT?"  Part="1" 
+AR Path="/2600005C762D3A" Ref="BT?"  Part="1" 
+AR Path="/23D1A05C762D3A" Ref="BT?"  Part="1" 
+AR Path="/5005C762D3A" Ref="BT?"  Part="1" 
+AR Path="/23D6C05C762D3A" Ref="BT?"  Part="1" 
+AR Path="/23DB0B5C762D3A" Ref="BT?"  Part="1" 
+AR Path="/2756B1C5C762D3A" Ref="BT?"  Part="1" 
+AR Path="/15C762D3A" Ref="BT?"  Part="1" 
+AR Path="/23D8BC5C762D3A" Ref="BT?"  Part="1" 
+AR Path="/5FC5C762D3A" Ref="BT?"  Part="1" 
+AR Path="/76BA5C762D3A" Ref="BT?"  Part="1" 
+F 0 "C34" H 6900 10600 50  0000 C CNN
+F 1 "SUPER" H 6900 10210 50  0000 C CNN
+F 2 "library:SuperCap5" H 6900 10310 50  0001 C CNN
+F 3 "" H 6900 10400 50  0001 C CNN
+	1    6900 10400
+	0    1    1    0   
+$EndComp
+$Comp
+L SBC-rescue:GND #PWR0149
+U 1 1 5C7630C6
+P 6900 10700
+AR Path="/5C7630C6" Ref="#PWR0149"  Part="1" 
+AR Path="/773F65F15C7630C6" Ref="#PWR?"  Part="1" 
+AR Path="/23BED45C7630C6" Ref="#PWR?"  Part="1" 
+AR Path="/23C5985C7630C6" Ref="#PWR?"  Part="1" 
+AR Path="/773F8EB45C7630C6" Ref="#PWR?"  Part="1" 
+AR Path="/25C7630C6" Ref="#PWR?"  Part="1" 
+AR Path="/95C7630C6" Ref="#PWR?"  Part="1" 
+AR Path="/FFFFFFF05C7630C6" Ref="#PWR?"  Part="1" 
+AR Path="/71126E5C7630C6" Ref="#PWR?"  Part="1" 
+AR Path="/48EF5C7630C6" Ref="#PWR?"  Part="1" 
+AR Path="/23CC3C5C7630C6" Ref="#PWR?"  Part="1" 
+AR Path="/1290D1E5C7630C6" Ref="#PWR?"  Part="1" 
+AR Path="/6FF0DD405C7630C6" Ref="#PWR?"  Part="1" 
+AR Path="/23C89C5C7630C6" Ref="#PWR?"  Part="1" 
+AR Path="/26E50145C7630C6" Ref="#PWR?"  Part="1" 
+AR Path="/2600005C7630C6" Ref="#PWR?"  Part="1" 
+AR Path="/5005C7630C6" Ref="#PWR?"  Part="1" 
+AR Path="/2756B1C5C7630C6" Ref="#PWR?"  Part="1" 
+AR Path="/15C7630C6" Ref="#PWR?"  Part="1" 
+AR Path="/23D8BC5C7630C6" Ref="#PWR?"  Part="1" 
+AR Path="/70F26E5C7630C6" Ref="#PWR?"  Part="1" 
+AR Path="/23DB0B5C7630C6" Ref="#PWR?"  Part="1" 
+AR Path="/5FC5C7630C6" Ref="#PWR?"  Part="1" 
+AR Path="/76BA5C7630C6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0149" H 6900 10700 30  0001 C CNN
+F 1 "GND" H 6900 10630 30  0001 C CNN
+F 2 "" H 6900 10700 50  0001 C CNN
+F 3 "" H 6900 10700 50  0001 C CNN
+	1    6900 10700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 10100 6300 10100
+Wire Wire Line
+	6300 10350 6300 10100
+Wire Wire Line
+	6300 10450 6300 10700
+Connection ~ 6300 10100
+Wire Wire Line
+	6300 10100 6900 10100
 $EndSCHEMATC
