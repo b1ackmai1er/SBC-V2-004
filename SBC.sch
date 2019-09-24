@@ -1,12 +1,12 @@
 EESchema Schematic File Version 4
 LIBS:SBC-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr C 22000 17000
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "2019-02-17"
+Date "2019-04-05"
 Rev ""
 Comp ""
 Comment1 ""
@@ -5124,8 +5124,6 @@ Text Label 8500 6450 0    60   ~ 0
 SIN_TTL
 Text Label 9600 6200 0    60   ~ 0
 SIN_TTL
-Text Label 9600 6000 0    60   ~ 0
-SOUT_TTL
 Text Label 13050 4900 0    60   ~ 0
 TX
 Text Label 13050 4800 0    60   ~ 0
@@ -8221,11 +8219,6 @@ Wire Wire Line
 Wire Wire Line
 	5300 8550 5950 8550
 Connection ~ 6450 6150
-Wire Wire Line
-	5950 7450 6450 7450
-Connection ~ 6450 7450
-Wire Wire Line
-	6450 7450 6500 7450
 NoConn ~ 8450 6850
 $Comp
 L SBC-rescue:GND #PWR0110
@@ -9723,8 +9716,6 @@ Connection ~ 2300 12700
 Wire Wire Line
 	2300 12700 3250 12700
 Wire Wire Line
-	9550 6000 10050 6000
-Wire Wire Line
 	11650 6000 11950 6000
 $Comp
 L Connector_Generic:Conn_01x02 P6
@@ -10128,8 +10119,6 @@ Wire Wire Line
 Wire Wire Line
 	13500 5500 13500 5700
 Connection ~ 2300 12200
-Text Label 9600 6100 0    50   ~ 0
-CTS_TTL
 Text Label 9600 5900 0    50   ~ 0
 RTS_TTL
 Text Label 11700 6100 0    50   ~ 0
@@ -10371,4 +10360,12 @@ Wire Wire Line
 Connection ~ 8950 5250
 Wire Wire Line
 	8450 5050 9150 5050
+Wire Wire Line
+	6450 7450 5950 7450
+Text Label 9600 6100 0    50   ~ 0
+CTS_TTL
+Wire Wire Line
+	9550 6000 10050 6000
+Text Label 9600 6000 0    60   ~ 0
+SOUT_TTL
 $EndSCHEMATC
