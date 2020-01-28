@@ -1,5 +1,5 @@
-update=21/06/2019 20:23:11
-last_client=eeschema
+update=24/08/2019 17:11:54
+last_client=kicad
 [pcbnew]
 version=1
 PadDrlX=320
@@ -45,7 +45,7 @@ PageLayoutDescrFile=
 PlotDirectoryName=./
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1

@@ -1404,11 +1404,11 @@ X Vcc 8 0 300 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Power_Management_DS1210
+# SBC-rescue_DS1210-Power_Management
 #
-DEF Power_Management_DS1210 U 0 20 Y Y 1 F N
+DEF SBC-rescue_DS1210-Power_Management U 0 20 Y Y 1 F N
 F0 "U" -300 350 50 H V C CNN
-F1 "Power_Management_DS1210" 200 350 50 H V C CNN
+F1 "SBC-rescue_DS1210-Power_Management" 200 350 50 H V C CNN
 F2 "Package_DIP:DIP-8_W7.62mm" 0 -800 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 $FPLIST

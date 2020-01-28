@@ -320,11 +320,11 @@ Wire Wire Line
 Wire Wire Line
 	9350 6700 10100 6700
 Wire Wire Line
-	1950 14350 1700 14350
+	3050 14350 2800 14350
 Wire Wire Line
-	1350 15100 900  15100
+	2450 15100 2000 15100
 Wire Wire Line
-	2550 14450 2550 14900
+	3650 14450 3650 14900
 Wire Wire Line
 	16200 13100 15800 13100
 Wire Wire Line
@@ -377,7 +377,7 @@ Wire Wire Line
 Wire Wire Line
 	15800 10050 16200 10050
 Wire Wire Line
-	1350 14450 1000 14450
+	2450 14450 2100 14450
 Wire Wire Line
 	5200 5450 5350 5450
 Wire Wire Line
@@ -756,7 +756,7 @@ Wire Wire Line
 Wire Wire Line
 	17200 11750 17600 11750
 Wire Wire Line
-	3150 15000 3850 15000
+	4250 15000 4950 15000
 Wire Wire Line
 	16200 14600 15800 14600
 Wire Wire Line
@@ -804,11 +804,11 @@ Wire Wire Line
 Wire Wire Line
 	11800 15250 12300 15250
 Wire Wire Line
-	1350 15200 900  15200
+	2450 15200 2000 15200
 Wire Wire Line
-	1350 15000 900  15000
+	2450 15000 2000 15000
 Wire Wire Line
-	1350 14650 1000 14650
+	2450 14650 2100 14650
 Wire Wire Line
 	13850 5250 13850 5150
 Wire Wire Line
@@ -4802,9 +4802,9 @@ F 3 "" H 13850 5250 50  0001 C CNN
 	1    13850 5250
 	1    0    0    -1  
 $EndComp
-Text Label 1750 14350 0    60   ~ 0
+Text Label 2850 14350 0    60   ~ 0
 /RD
-Text Label 1050 14650 0    60   ~ 0
+Text Label 2150 14650 0    60   ~ 0
 /IOSEL
 Text Label 17250 7150 0    60   ~ 0
 B_/RFSH
@@ -5198,7 +5198,7 @@ Text Label 15850 14500 0    60   ~ 0
 D0
 Text Label 15850 14400 0    60   ~ 0
 D2
-Text Label 3200 15000 0    60   ~ 0
+Text Label 4300 15000 0    60   ~ 0
 DATA_DIR
 Text Label 15600 15800 0    60   ~ 0
 DATA_DIR
@@ -5303,15 +5303,15 @@ Text Label 15850 9150 0    60   ~ 0
 A0
 Text Label 15850 10050 0    60   ~ 0
 /BUSAK
-Text Label 950  15200 0    60   ~ 0
+Text Label 2050 15200 0    60   ~ 0
 /BUSAK
 Text Label 15850 11950 0    60   ~ 0
 /BUSAK
-Text Label 950  15100 0    60   ~ 0
+Text Label 2050 15100 0    60   ~ 0
 /M1
-Text Label 950  15000 0    60   ~ 0
+Text Label 2050 15000 0    60   ~ 0
 /RD
-Text Label 1050 14450 0    60   ~ 0
+Text Label 2150 14450 0    60   ~ 0
 /MREQ
 $Comp
 L power:GND #PWR030
@@ -5420,7 +5420,7 @@ $EndComp
 $Comp
 L 74xx:74LS08 U3
 U 2 1 47E98C17
-P 2850 15000
+P 3950 15000
 AR Path="/773F65F147E98C17" Ref="U3"  Part="2" 
 AR Path="/23C59847E98C17" Ref="U3"  Part="2" 
 AR Path="/DE2D47E98C17" Ref="U3"  Part="2" 
@@ -5444,17 +5444,17 @@ AR Path="/23D8BC47E98C17" Ref="U3"  Part="2"
 AR Path="/23C89C47E98C17" Ref="U3"  Part="2" 
 AR Path="/5FC47E98C17" Ref="U3"  Part="2" 
 AR Path="/76BA47E98C17" Ref="U3"  Part="2" 
-F 0 "U3" H 2850 15050 60  0000 C CNN
-F 1 "74LS08" H 2850 14950 60  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 2850 15050 60  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 2850 15000 50  0001 C CNN
-	2    2850 15000
+F 0 "U3" H 3950 15050 60  0000 C CNN
+F 1 "74LS08" H 3950 14950 60  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3950 15050 60  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 3950 15000 50  0001 C CNN
+	2    3950 15000
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS32 U15
 U 1 1 47E98C02
-P 2250 14450
+P 3350 14450
 AR Path="/773F65F147E98C02" Ref="U15"  Part="1" 
 AR Path="/23C59847E98C02" Ref="U15"  Part="1" 
 AR Path="/DE2D47E98C02" Ref="U15"  Part="1" 
@@ -5477,17 +5477,17 @@ AR Path="/147E98C02" Ref="U15"  Part="1"
 AR Path="/23D8BC47E98C02" Ref="U15"  Part="1" 
 AR Path="/5FC47E98C02" Ref="U15"  Part="1" 
 AR Path="/76BA47E98C02" Ref="U15"  Part="1" 
-F 0 "U15" H 2250 14500 60  0000 C CNN
-F 1 "74LS32" H 2250 14400 60  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 2250 14500 60  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 2250 14450 50  0001 C CNN
-	1    2250 14450
+F 0 "U15" H 3350 14500 60  0000 C CNN
+F 1 "74LS32" H 3350 14400 60  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3350 14500 60  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 3350 14450 50  0001 C CNN
+	1    3350 14450
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS08 U3
 U 1 1 47E98BF3
-P 1650 14550
+P 2750 14550
 AR Path="/773F65F147E98BF3" Ref="U3"  Part="1" 
 AR Path="/23C59847E98BF3" Ref="U3"  Part="1" 
 AR Path="/DE2D47E98BF3" Ref="U3"  Part="1" 
@@ -5510,17 +5510,17 @@ AR Path="/147E98BF3" Ref="U3"  Part="1"
 AR Path="/23D8BC47E98BF3" Ref="U3"  Part="1" 
 AR Path="/5FC47E98BF3" Ref="U3"  Part="1" 
 AR Path="/76BA47E98BF3" Ref="U3"  Part="1" 
-F 0 "U3" H 1650 14600 60  0000 C CNN
-F 1 "74LS08" H 1650 14500 60  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 1650 14600 60  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 1650 14550 50  0001 C CNN
-	1    1650 14550
+F 0 "U3" H 2750 14600 60  0000 C CNN
+F 1 "74LS08" H 2750 14500 60  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2750 14600 60  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 2750 14550 50  0001 C CNN
+	1    2750 14550
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS10 U4
 U 2 1 47E98BD8
-P 1650 15100
+P 2750 15100
 AR Path="/773F65F147E98BD8" Ref="U4"  Part="2" 
 AR Path="/23C59847E98BD8" Ref="U4"  Part="2" 
 AR Path="/DE2D47E98BD8" Ref="U4"  Part="2" 
@@ -5543,11 +5543,11 @@ AR Path="/23D8BC47E98BD8" Ref="U4"  Part="2"
 AR Path="/23C89C47E98BD8" Ref="U4"  Part="2" 
 AR Path="/5FC47E98BD8" Ref="U4"  Part="2" 
 AR Path="/76BA47E98BD8" Ref="U4"  Part="2" 
-F 0 "U4" H 1650 15150 60  0000 C CNN
-F 1 "74LS10" H 1650 15050 60  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 1650 15150 60  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 1650 15100 50  0001 C CNN
-	2    1650 15100
+F 0 "U4" H 2750 15150 60  0000 C CNN
+F 1 "74LS10" H 2750 15050 60  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2750 15150 60  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 2750 15100 50  0001 C CNN
+	2    2750 15100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -8653,7 +8653,7 @@ F 3 "" H 19750 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1950 15100 2550 15100
+	3050 15100 3650 15100
 $Comp
 L 74xx:74LS32 U15
 U 5 1 5DF4219F
