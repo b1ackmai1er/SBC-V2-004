@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:SBC-cache
 EELAYER 30 0
 EELAYER END
 $Descr C 22000 17000
@@ -63,11 +62,11 @@ Wire Wire Line
 	10550 11000 11250 11000
 Wire Wire Line
 	8350 9400 8800 9400
-Connection ~ 10100 13300
+Connection ~ 9750 13300
 Wire Wire Line
-	10100 12950 10100 13300
+	9750 12950 9750 13300
 Wire Wire Line
-	10100 12950 11000 12950
+	9750 12950 10650 12950
 Wire Wire Line
 	1750 10800 1750 11100
 Wire Wire Line
@@ -117,7 +116,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 2450 4750 2450
 Wire Wire Line
-	9500 13400 8600 13400
+	9150 13400 8250 13400
 Connection ~ 20000 4300
 Wire Wire Line
 	11200 15050 11200 15150
@@ -258,7 +257,7 @@ Wire Wire Line
 Wire Wire Line
 	13100 11100 12650 11100
 Wire Wire Line
-	10550 13150 11000 13150
+	10200 13150 10650 13150
 Wire Wire Line
 	4250 2550 4750 2550
 Wire Wire Line
@@ -320,11 +319,11 @@ Wire Wire Line
 Wire Wire Line
 	9350 6700 10100 6700
 Wire Wire Line
-	1950 14350 1700 14350
+	2850 14300 2600 14300
 Wire Wire Line
-	1350 15100 900  15100
+	2250 15050 1800 15050
 Wire Wire Line
-	2550 14450 2550 14900
+	3450 14400 3450 14850
 Wire Wire Line
 	16200 13100 15800 13100
 Wire Wire Line
@@ -377,7 +376,7 @@ Wire Wire Line
 Wire Wire Line
 	15800 10050 16200 10050
 Wire Wire Line
-	1350 14450 1000 14450
+	2250 14400 1900 14400
 Wire Wire Line
 	5200 5450 5350 5450
 Wire Wire Line
@@ -756,7 +755,7 @@ Wire Wire Line
 Wire Wire Line
 	17200 11750 17600 11750
 Wire Wire Line
-	3150 15000 3850 15000
+	4050 14950 4750 14950
 Wire Wire Line
 	16200 14600 15800 14600
 Wire Wire Line
@@ -804,11 +803,11 @@ Wire Wire Line
 Wire Wire Line
 	11800 15250 12300 15250
 Wire Wire Line
-	1350 15200 900  15200
+	2250 15150 1800 15150
 Wire Wire Line
-	1350 15000 900  15000
+	2250 14950 1800 14950
 Wire Wire Line
-	1350 14650 1000 14650
+	2250 14600 1900 14600
 Wire Wire Line
 	13850 5250 13850 5150
 Wire Wire Line
@@ -872,7 +871,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 2350 4750 2350
 Wire Wire Line
-	8600 13200 9500 13200
+	8250 13200 9150 13200
 Wire Wire Line
 	12650 11900 13100 11900
 Wire Wire Line
@@ -880,9 +879,9 @@ Wire Wire Line
 Wire Wire Line
 	13100 11200 12650 11200
 Wire Wire Line
-	12150 13050 11600 13050
+	11800 13050 11250 13050
 Wire Wire Line
-	11600 13500 12150 13500
+	11250 13500 11800 13500
 Wire Wire Line
 	14850 9550 14100 9550
 Wire Wire Line
@@ -1121,8 +1120,8 @@ Wire Wire Line
 	1150 11100 1150 11300
 Connection ~ 1750 11100
 Wire Wire Line
-	11000 13150 11000 13400
-Connection ~ 11000 13150
+	10650 13150 10650 13400
+Connection ~ 10650 13150
 Wire Wire Line
 	8850 10050 8400 10050
 Wire Wire Line
@@ -4183,16 +4182,16 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 11550 9600 50  0001 C CNN
 	1    11550 9600
 	1    0    0    -1  
 $EndComp
-Text Label 8650 13400 0    60   ~ 0
+Text Label 8300 13400 0    60   ~ 0
 /ROM_ENABLE
 Text Label 14150 9550 0    60   ~ 0
 /ROM_ENABLE
-Text Label 11650 13500 0    60   ~ 0
+Text Label 11300 13500 0    60   ~ 0
 /CS_RAM
 $Comp
 L 74xx:74LS32 U15
 U 4 1 47EEA819
-P 11300 13500
+P 10950 13500
 AR Path="/773F65F147EEA819" Ref="U15"  Part="4" 
 AR Path="/23C59847EEA819" Ref="U15"  Part="4" 
 AR Path="/DE2D47EEA819" Ref="U15"  Part="4" 
@@ -4217,17 +4216,17 @@ AR Path="/147EEA819" Ref="U15"  Part="4"
 AR Path="/23D8BC47EEA819" Ref="U15"  Part="4" 
 AR Path="/5FC47EEA819" Ref="U15"  Part="4" 
 AR Path="/76BA47EEA819" Ref="U15"  Part="4" 
-F 0 "U15" H 11300 13550 60  0000 C CNN
-F 1 "74LS32" H 11300 13450 60  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 11300 13550 60  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 11300 13500 50  0001 C CNN
-	4    11300 13500
+F 0 "U15" H 10950 13550 60  0000 C CNN
+F 1 "74LS32" H 10950 13450 60  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 10950 13550 60  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 10950 13500 50  0001 C CNN
+	4    10950 13500
 	1    0    0    1   
 $EndComp
 $Comp
 L 74xx:74LS14 U7
 U 3 1 47EEA7E8
-P 10700 13600
+P 10350 13600
 AR Path="/773F65F147EEA7E8" Ref="U7"  Part="3" 
 AR Path="/23C59847EEA7E8" Ref="U7"  Part="3" 
 AR Path="/DE2D47EEA7E8" Ref="U7"  Part="3" 
@@ -4255,19 +4254,19 @@ AR Path="/308077C47EEA7E8" Ref="U"  Part="3"
 AR Path="/23C89C47EEA7E8" Ref="U7"  Part="3" 
 AR Path="/5FC47EEA7E8" Ref="U7"  Part="3" 
 AR Path="/76BA47EEA7E8" Ref="U7"  Part="3" 
-F 0 "U7" H 10850 13700 40  0000 C CNN
-F 1 "74LS14" H 10900 13500 40  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 10900 13600 40  0001 C CNN
-F 3 "" H 10700 13600 50  0001 C CNN
-	3    10700 13600
+F 0 "U7" H 10500 13700 40  0000 C CNN
+F 1 "74LS14" H 10550 13500 40  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 10550 13600 40  0001 C CNN
+F 3 "" H 10350 13600 50  0001 C CNN
+	3    10350 13600
 	1    0    0    -1  
 $EndComp
-Text Label 11650 13050 0    60   ~ 0
+Text Label 11300 13050 0    60   ~ 0
 /CS_ROM
 $Comp
 L 74xx:74LS32 U15
 U 3 1 47EEA779
-P 11300 13050
+P 10950 13050
 AR Path="/773F65F147EEA779" Ref="U15"  Part="3" 
 AR Path="/23C59847EEA779" Ref="U15"  Part="3" 
 AR Path="/DE2D47EEA779" Ref="U15"  Part="3" 
@@ -4291,11 +4290,11 @@ AR Path="/147EEA779" Ref="U15"  Part="3"
 AR Path="/23D8BC47EEA779" Ref="U15"  Part="3" 
 AR Path="/5FC47EEA779" Ref="U15"  Part="3" 
 AR Path="/76BA47EEA779" Ref="U15"  Part="3" 
-F 0 "U15" H 11300 13100 60  0000 C CNN
-F 1 "74LS32" H 11300 13000 60  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 11300 13100 60  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 11300 13050 50  0001 C CNN
-	3    11300 13050
+F 0 "U15" H 10950 13100 60  0000 C CNN
+F 1 "74LS32" H 10950 13000 60  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 10950 13100 60  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 10950 13050 50  0001 C CNN
+	3    10950 13050
 	1    0    0    -1  
 $EndComp
 Text Label 12700 11300 0    60   ~ 0
@@ -4308,14 +4307,14 @@ Text Label 12700 11000 0    60   ~ 0
 D0
 Text Label 12650 11900 0    60   ~ 0
 /RESET
-Text Label 10600 13150 0    60   ~ 0
+Text Label 10250 13150 0    60   ~ 0
 /MREQ
-Text Label 8650 13200 0    60   ~ 0
+Text Label 8300 13200 0    60   ~ 0
 A15
 $Comp
 L 74xx:74LS32 U15
 U 2 1 47EEA5E5
-P 9800 13300
+P 9450 13300
 AR Path="/773F65F147EEA5E5" Ref="U15"  Part="2" 
 AR Path="/23C59847EEA5E5" Ref="U15"  Part="2" 
 AR Path="/DE2D47EEA5E5" Ref="U15"  Part="2" 
@@ -4341,11 +4340,11 @@ AR Path="/23D8BC47EEA5E5" Ref="U15"  Part="2"
 AR Path="/23C89C47EEA5E5" Ref="U15"  Part="2" 
 AR Path="/5FC47EEA5E5" Ref="U15"  Part="2" 
 AR Path="/76BA47EEA5E5" Ref="U15"  Part="2" 
-F 0 "U15" H 9800 13350 60  0000 C CNN
-F 1 "74LS32" H 9800 13250 60  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 9800 13350 60  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 9800 13300 50  0001 C CNN
-	2    9800 13300
+F 0 "U15" H 9450 13350 60  0000 C CNN
+F 1 "74LS32" H 9450 13250 60  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 9450 13350 60  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 9450 13300 50  0001 C CNN
+	2    9450 13300
 	1    0    0    -1  
 $EndComp
 Text Label 4300 2550 0    60   ~ 0
@@ -4802,9 +4801,9 @@ F 3 "" H 13850 5250 50  0001 C CNN
 	1    13850 5250
 	1    0    0    -1  
 $EndComp
-Text Label 1750 14350 0    60   ~ 0
+Text Label 2650 14300 0    60   ~ 0
 /RD
-Text Label 1050 14650 0    60   ~ 0
+Text Label 1950 14600 0    60   ~ 0
 /IOSEL
 Text Label 17250 7150 0    60   ~ 0
 B_/RFSH
@@ -5198,7 +5197,7 @@ Text Label 15850 14500 0    60   ~ 0
 D0
 Text Label 15850 14400 0    60   ~ 0
 D2
-Text Label 3200 15000 0    60   ~ 0
+Text Label 4100 14950 0    60   ~ 0
 DATA_DIR
 Text Label 15600 15800 0    60   ~ 0
 DATA_DIR
@@ -5303,15 +5302,15 @@ Text Label 15850 9150 0    60   ~ 0
 A0
 Text Label 15850 10050 0    60   ~ 0
 /BUSAK
-Text Label 950  15200 0    60   ~ 0
+Text Label 1850 15150 0    60   ~ 0
 /BUSAK
 Text Label 15850 11950 0    60   ~ 0
 /BUSAK
-Text Label 950  15100 0    60   ~ 0
+Text Label 1850 15050 0    60   ~ 0
 /M1
-Text Label 950  15000 0    60   ~ 0
+Text Label 1850 14950 0    60   ~ 0
 /RD
-Text Label 1050 14450 0    60   ~ 0
+Text Label 1950 14400 0    60   ~ 0
 /MREQ
 $Comp
 L power:GND #PWR030
@@ -5420,7 +5419,7 @@ $EndComp
 $Comp
 L 74xx:74LS08 U3
 U 2 1 47E98C17
-P 2850 15000
+P 3750 14950
 AR Path="/773F65F147E98C17" Ref="U3"  Part="2" 
 AR Path="/23C59847E98C17" Ref="U3"  Part="2" 
 AR Path="/DE2D47E98C17" Ref="U3"  Part="2" 
@@ -5444,17 +5443,17 @@ AR Path="/23D8BC47E98C17" Ref="U3"  Part="2"
 AR Path="/23C89C47E98C17" Ref="U3"  Part="2" 
 AR Path="/5FC47E98C17" Ref="U3"  Part="2" 
 AR Path="/76BA47E98C17" Ref="U3"  Part="2" 
-F 0 "U3" H 2850 15050 60  0000 C CNN
-F 1 "74LS08" H 2850 14950 60  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 2850 15050 60  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 2850 15000 50  0001 C CNN
-	2    2850 15000
+F 0 "U3" H 3750 15000 60  0000 C CNN
+F 1 "74LS08" H 3750 14900 60  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3750 15000 60  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 3750 14950 50  0001 C CNN
+	2    3750 14950
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS32 U15
 U 1 1 47E98C02
-P 2250 14450
+P 3150 14400
 AR Path="/773F65F147E98C02" Ref="U15"  Part="1" 
 AR Path="/23C59847E98C02" Ref="U15"  Part="1" 
 AR Path="/DE2D47E98C02" Ref="U15"  Part="1" 
@@ -5477,17 +5476,17 @@ AR Path="/147E98C02" Ref="U15"  Part="1"
 AR Path="/23D8BC47E98C02" Ref="U15"  Part="1" 
 AR Path="/5FC47E98C02" Ref="U15"  Part="1" 
 AR Path="/76BA47E98C02" Ref="U15"  Part="1" 
-F 0 "U15" H 2250 14500 60  0000 C CNN
-F 1 "74LS32" H 2250 14400 60  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 2250 14500 60  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 2250 14450 50  0001 C CNN
-	1    2250 14450
+F 0 "U15" H 3150 14450 60  0000 C CNN
+F 1 "74LS32" H 3150 14350 60  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3150 14450 60  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 3150 14400 50  0001 C CNN
+	1    3150 14400
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS08 U3
 U 1 1 47E98BF3
-P 1650 14550
+P 2550 14500
 AR Path="/773F65F147E98BF3" Ref="U3"  Part="1" 
 AR Path="/23C59847E98BF3" Ref="U3"  Part="1" 
 AR Path="/DE2D47E98BF3" Ref="U3"  Part="1" 
@@ -5510,17 +5509,17 @@ AR Path="/147E98BF3" Ref="U3"  Part="1"
 AR Path="/23D8BC47E98BF3" Ref="U3"  Part="1" 
 AR Path="/5FC47E98BF3" Ref="U3"  Part="1" 
 AR Path="/76BA47E98BF3" Ref="U3"  Part="1" 
-F 0 "U3" H 1650 14600 60  0000 C CNN
-F 1 "74LS08" H 1650 14500 60  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 1650 14600 60  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 1650 14550 50  0001 C CNN
-	1    1650 14550
+F 0 "U3" H 2550 14550 60  0000 C CNN
+F 1 "74LS08" H 2550 14450 60  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2550 14550 60  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 2550 14500 50  0001 C CNN
+	1    2550 14500
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS10 U4
 U 2 1 47E98BD8
-P 1650 15100
+P 2550 15050
 AR Path="/773F65F147E98BD8" Ref="U4"  Part="2" 
 AR Path="/23C59847E98BD8" Ref="U4"  Part="2" 
 AR Path="/DE2D47E98BD8" Ref="U4"  Part="2" 
@@ -5543,11 +5542,11 @@ AR Path="/23D8BC47E98BD8" Ref="U4"  Part="2"
 AR Path="/23C89C47E98BD8" Ref="U4"  Part="2" 
 AR Path="/5FC47E98BD8" Ref="U4"  Part="2" 
 AR Path="/76BA47E98BD8" Ref="U4"  Part="2" 
-F 0 "U4" H 1650 15150 60  0000 C CNN
-F 1 "74LS10" H 1650 15050 60  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 1650 15150 60  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 1650 15100 50  0001 C CNN
-	2    1650 15100
+F 0 "U4" H 2550 15100 60  0000 C CNN
+F 1 "74LS10" H 2550 15000 60  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2550 15100 60  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 2550 15050 50  0001 C CNN
+	2    2550 15050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -7230,7 +7229,7 @@ B_/RESOUT
 Wire Wire Line
 	10550 9500 11250 9500
 Wire Wire Line
-	10100 13300 10100 13600
+	9750 13300 9750 13600
 Wire Wire Line
 	2100 13100 2100 13450
 Wire Wire Line
@@ -8405,7 +8404,7 @@ Connection ~ 6150 14700
 Wire Wire Line
 	6800 14300 7450 14300
 Wire Wire Line
-	10100 13600 10400 13600
+	9750 13600 10050 13600
 $Comp
 L 74xx:74LS14 U7
 U 7 1 5D14A11D
@@ -8653,7 +8652,7 @@ F 3 "" H 19750 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1950 15100 2550 15100
+	2850 15050 3450 15050
 $Comp
 L 74xx:74LS32 U15
 U 5 1 5DF4219F
@@ -9560,7 +9559,7 @@ NoConn ~ 8450 5750
 $Comp
 L power:VCC #PWR0150
 U 1 1 5CAD5A4F
-P 9150 5050
+P 8950 4750
 AR Path="/5CAD5A4F" Ref="#PWR0150"  Part="1" 
 AR Path="/773F65F15CAD5A4F" Ref="#PWR?"  Part="1" 
 AR Path="/23BED45CAD5A4F" Ref="#PWR?"  Part="1" 
@@ -9585,11 +9584,11 @@ AR Path="/70F26E5CAD5A4F" Ref="#PWR?"  Part="1"
 AR Path="/23DB0B5CAD5A4F" Ref="#PWR?"  Part="1" 
 AR Path="/5FC5CAD5A4F" Ref="#PWR?"  Part="1" 
 AR Path="/76BA5CAD5A4F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0150" H 9150 5150 30  0001 C CNN
-F 1 "VCC" H 9150 5150 30  0000 C CNN
-F 2 "" H 9150 5050 50  0001 C CNN
-F 3 "" H 9150 5050 50  0001 C CNN
-	1    9150 5050
+F 0 "#PWR0150" H 8950 4850 30  0001 C CNN
+F 1 "VCC" H 8950 4800 30  0000 C CNN
+F 2 "" H 8950 4750 50  0001 C CNN
+F 3 "" H 8950 4750 50  0001 C CNN
+	1    8950 4750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -9637,7 +9636,7 @@ Wire Wire Line
 	9150 5250 9150 5350
 Connection ~ 8950 5250
 Wire Wire Line
-	8450 5050 9150 5050
+	8450 5050 8950 5050
 Wire Wire Line
 	6450 7450 5950 7450
 Text Label 9600 6500 0    50   ~ 0
@@ -10360,12 +10359,8 @@ Wire Wire Line
 	20000 15050 20450 15050
 Text Label 20000 15050 0    60   ~ 0
 /RESET_IN
-Text Notes 12200 13150 0    50   ~ 0
-Enable ROM when memory request is received (/MREQ=0)\nand accessing lower 32K (A15=0) \nand ROM Enable is active (/ROM_ENABLE=0)
-Text Notes 12200 13600 0    50   ~ 0
-Enable RAM when memory request is received (/MREQ=0)\nand ROM is disabled (/ROM Enable=1)\nor when accessing upper 32K (A15=1)\n
 $Bitmap
-Pos 14750 13200
+Pos 14450 13200
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 00 7A 00 00 00 C9 08 02 00 00 00 63 65 B1 
@@ -10427,4 +10422,92 @@ C3 85 BA 23 73 04 13 BA 3E 49 A5 46 46 3E B5 AD AC 70 64 8E E0 46 50 DD 50 18 11
 48 EA 50 DD E4 BD FC 07 EE 89 CB 03 7C 59 DB 8E 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+Text Notes 11950 13600 0    50   ~ 0
+Enable RAM when memory request is received (/MREQ=0)\nand ROM is disabled (/ROM Enable=1)\nor when accessing upper 32K (A15=1)\n
+Text Notes 11950 13150 0    50   ~ 0
+Enable ROM when memory request is received (/MREQ=0)\nand accessing lower 32K (A15=0) \nand ROM Enable is active (/ROM_ENABLE=0)
+Text Notes 3600 15400 0    50   ~ 0
+DATA_DIR \n= 1 IF ACCESSING ECB DATA BUS,\n= 0 IF ACCESS LOCAL CARD I/O OR MEMORY
+Text Notes 800  14700 0    50   ~ 0
+IF LOCAL I/O READ \nOR WRITE THEN\nDATA_DIRECTION = 0 \nI.E. /MREQ=0, \n/IORQ=0 & LOCAL I/O 
+Text Notes 1650 15400 0    50   ~ 0
+ECB DATA BUS CAN BE ENABLED IF \n/RD=0 OR /M1=0 OR /BUSACK=0 
+$Comp
+L power:GND #power:GND0102
+U 1 1 5E3D38C4
+P 9550 5350
+AR Path="/5E3D38C4" Ref="#power:GND0102"  Part="1" 
+AR Path="/773F65F15E3D38C4" Ref="#power:GND?"  Part="1" 
+AR Path="/23BED45E3D38C4" Ref="#power:GND?"  Part="1" 
+AR Path="/23C5985E3D38C4" Ref="#power:GND?"  Part="1" 
+AR Path="/773F8EB45E3D38C4" Ref="#power:GND?"  Part="1" 
+AR Path="/25E3D38C4" Ref="#power:GND?"  Part="1" 
+AR Path="/95E3D38C4" Ref="#power:GND?"  Part="1" 
+AR Path="/FFFFFFF05E3D38C4" Ref="#power:GND?"  Part="1" 
+AR Path="/71126E5E3D38C4" Ref="#power:GND?"  Part="1" 
+AR Path="/48EF5E3D38C4" Ref="#power:GND?"  Part="1" 
+AR Path="/23CC3C5E3D38C4" Ref="#power:GND?"  Part="1" 
+AR Path="/1290D1E5E3D38C4" Ref="#power:GND?"  Part="1" 
+AR Path="/6FF0DD405E3D38C4" Ref="#power:GND?"  Part="1" 
+AR Path="/23C89C5E3D38C4" Ref="#power:GND?"  Part="1" 
+AR Path="/26E50145E3D38C4" Ref="#power:GND?"  Part="1" 
+AR Path="/2600005E3D38C4" Ref="#power:GND?"  Part="1" 
+AR Path="/5005E3D38C4" Ref="#power:GND?"  Part="1" 
+AR Path="/2756B1C5E3D38C4" Ref="#power:GND?"  Part="1" 
+AR Path="/15E3D38C4" Ref="#power:GND?"  Part="1" 
+AR Path="/23D8BC5E3D38C4" Ref="#power:GND?"  Part="1" 
+AR Path="/70F26E5E3D38C4" Ref="#power:GND?"  Part="1" 
+AR Path="/23DB0B5E3D38C4" Ref="#power:GND?"  Part="1" 
+AR Path="/5FC5E3D38C4" Ref="#power:GND?"  Part="1" 
+AR Path="/76BA5E3D38C4" Ref="#power:GND?"  Part="1" 
+F 0 "#power:GND0102" H 9550 5350 30  0001 C CNN
+F 1 "GND" H 9550 5280 30  0001 C CNN
+F 2 "" H 9550 5350 50  0001 C CNN
+F 3 "" H 9550 5350 50  0001 C CNN
+	1    9550 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 5350 9550 5050
+$Comp
+L Device:R R17
+U 1 1 5E4CC07C
+P 8950 4900
+F 0 "R17" H 8900 4850 50  0000 R CNN
+F 1 "100K" H 8900 4950 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 8880 4900 50  0001 C CNN
+F 3 "~" H 8950 4900 50  0001 C CNN
+	1    8950 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Jumper JP?
+U 1 1 5E4F644E
+P 9250 5050
+AR Path="/385E4F644E" Ref="JP?"  Part="1" 
+AR Path="/27800315E4F644E" Ref="JP?"  Part="1" 
+AR Path="/5E4F644E" Ref="JP9"  Part="1" 
+AR Path="/773F8EB45E4F644E" Ref="JP?"  Part="1" 
+AR Path="/23CC3C5E4F644E" Ref="JP?"  Part="1" 
+AR Path="/95E4F644E" Ref="JP?"  Part="1" 
+AR Path="/23C5985E4F644E" Ref="JP?"  Part="1" 
+AR Path="/18435E4F644E" Ref="JP?"  Part="1" 
+AR Path="/25E4F644E" Ref="JP?"  Part="1" 
+AR Path="/23BED45E4F644E" Ref="JP?"  Part="1" 
+AR Path="/15E4F644E" Ref="JP?"  Part="1" 
+AR Path="/773F65F15E4F644E" Ref="JP?"  Part="1" 
+AR Path="/FFFFFFF05E4F644E" Ref="JP?"  Part="1" 
+AR Path="/23D8BC5E4F644E" Ref="JP?"  Part="1" 
+AR Path="/5AD72BC25E4F644E" Ref="JP?"  Part="1" 
+AR Path="/23DB0B5E4F644E" Ref="JP?"  Part="1" 
+AR Path="/5FC5E4F644E" Ref="JP?"  Part="1" 
+AR Path="/76BA5E4F644E" Ref="JP?"  Part="1" 
+F 0 "JP9" H 9250 5200 60  0000 C CNN
+F 1 "RECMODE" H 9250 4970 40  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9250 5070 40  0001 C CNN
+F 3 "" H 9250 5050 50  0001 C CNN
+	1    9250 5050
+	1    0    0    -1  
+$EndComp
+Connection ~ 8950 5050
 $EndSCHEMATC
